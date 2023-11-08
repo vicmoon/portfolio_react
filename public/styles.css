@@ -3,3 +3,423 @@ body{
     background-color: black;
     color: white;
 }
+
+
+:root {
+  --primary-color: #73c2fc;
+  --secondary-color: white;
+  --third-color: black;
+  --forth-color: yellow;
+  --fith-color: #0d1b32;
+  --sixth-color: white;
+  --heading-font: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--heading-font);
+  background-color: var(--third-color);
+  
+}
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+  color: var(--sixth-color);
+  font-family: var(--heading-font);
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 25px;
+}
+h2 {
+  padding-top: 30px;
+}
+
+main  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 9px;
+  margin-left: 26px;
+  
+}
+
+.navbar {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+
+}
+
+.main-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.main-page{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  grid-gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 300px; /* Set the width of your card */
+  height: 300px; /* Set the height of your card */
+  perspective: 1000px; /* Define the depth perspective for the 3D effect */
+  position: relative;
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+  
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Add a smooth transition for the flip effect */
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
+}
+
+.card-front-name h1{
+  color: #0d1b32;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+
+
+
+}
+.card-front-name,
+.card-back-name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back-name {
+  /* Back content (text) styles */
+  background-color: var(--third-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
+}
+
+.card-back-name p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-back {
+  /* Back content (text) styles */
+  background-color: var(--primary-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
+}
+
+.card-back p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+
+.main-grid .card img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.about-grid {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap:10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.about-section p{
+  margin-bottom: 10px;
+
+}
+.btn-info {
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 15px 20px;
+  margin-left: 10px;
+  border-color: var(--forth-color);
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  color: var(--third-color);
+}
+
+.logo {
+  max-height: 40px;
+
+}
+footer .social-links a {
+  margin: 20px 20px;
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50px;
+  max-height: 45px;
+  color: var(--third-color);
+}
+footer .social-links a:hover {
+  color: var(--sixth-color);
+  background: var(--third-color);
+}
+
+footer .contact-box {
+  background: var(--fith-color);
+  padding: 100px;
+  border-radius: 20px;
+  border-style: dashed;
+}
+
+
+@media (max-width: 900px) {
+
+  
+  .main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+}
+ 
+.card {
+  width: 250px; /* Set the width of your card */
+  height: 250px; /* Set the height of your card */
+  perspective: 1000px; /* Define the depth perspective for the 3D effect */
+  position: relative;
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Add a smooth transition for the flip effect */
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
+}
+
+.card-front-name h1{
+  color: #0d1b32;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.card-front-name,
+.card-back-name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back-name {
+  /* Back content (text) styles */
+  background-color: var(--third-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
+}
+
+.card-back-name p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+
+ .main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+
+.card img {
+  width: 78%;
+  height: 78%;
+  
+}
+
+  .btn-info {
+    margin-bottom: 10px;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-grid p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   text-align: justify;
+
+  }
+  
+  .about-grid h2 {
+    text-align: center;
+  }
+
+ 
+.about-section h1, p{
+  text-align: justify;
+
+}
+
+
+@media (max-width: 660px){
+
+   .main-page{
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  
+  .main-grid{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 550px){
+
+ .main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .main-grid{
+    display: flex ;
+    flex-direction: column;
+  }
+
+  
+ .card {
+  width: 250px; /* Set the width of your card */
+  height: 250px; /* Set the height of your card */
+  perspective: 1000px; /* Define the depth perspective for the 3D effect */
+  position: relative;
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s; /* Add a smooth transition for the flip effect */
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
+}
+
+.card-front-name h1{
+  color: #0d1b32;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-front-name,
+.card-back-name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back-name {
+  /* Back content (text) styles */
+  background-color: var(--third-color);
+  transform: rotateY(180deg); /* Initially, hide the back side of the card */
+}
+
+.card-back-name p {
+  padding: 10px;
+  text-align: justify;
+  color: black;
+}
+}
+
+@media (max-width: 450px){
+
+  .main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .main-grid {
+    display: flex ;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .about-section p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: justify;
+
+  }
+}

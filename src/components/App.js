@@ -2,10 +2,26 @@ import react from 'react';
 import Card from './Card';
 import details from '../details';
 
+
+function createCard(detail) {
+    return (
+        <Card 
+        key={detail.id}
+        name={detail.name}
+        image={detail.image}
+        link={detail.link}
+        language={detail.language}
+        />
+    );
+
+}
+
 function App() {
     return (
             <div className='main-grid'>
-            <Card 
+                {details.map((createCard))}
+           </div>
+           /* <Card 
             name ={details[0].name}
             image={details[0].image}
             link={details[0].link}
@@ -71,8 +87,8 @@ function App() {
             link={details[10].link}
             language={details[10].language}
              />
-        
-        </div>
+         */
+                
        
     );
 }

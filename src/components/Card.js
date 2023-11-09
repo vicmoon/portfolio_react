@@ -11,6 +11,7 @@ function Card(props){
             <div className="card-back">
               <a href= {props.link} target="_blank" rel="noreferrer" alt=" JavaScript- exercises" >
               <p>{props.name}</p>
+              <p>{props.language}</p>
             </a>
             </div>
           </div>

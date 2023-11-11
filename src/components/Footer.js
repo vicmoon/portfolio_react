@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 
 
 function Footer(){
@@ -8,6 +8,7 @@ function Footer(){
     return (
         <div className="footer">
             <p>© {currentYear} Victoria Munteanu</p>
+             
         </div>
     );
 

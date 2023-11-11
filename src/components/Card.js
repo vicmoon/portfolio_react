@@ -1,8 +1,8 @@
-import react from 'react';
 import Avatar from './Avatar';
 
 function Card(props){
     return (
+      <div className='front-page'>
      <div className="card">
           <div className="card-inner">
             <div className="card-front">
@@ -15,6 +15,7 @@ function Card(props){
             </a>
             </div>
           </div>
+        </div>
         </div>
     );
 

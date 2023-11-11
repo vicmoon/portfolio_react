@@ -29,26 +29,19 @@ p {
   font-family: var(--heading-font);
 }
 
-h1 {
-  font-size: 50px;
-  margin-top: 25px;
-}
-h2 {
-  padding-top: 30px;
-}
-
-main  {
+.front-page {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 9px;
-  margin-left: 26px;
+  margin-top: 100px;
+  gap: 10px;
+ 
+
   
 }
 
-.navbar {
-  margin-bottom: 50px;
+/* .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,32 +49,13 @@ main  {
   padding: 10px 20px;
 
 
-}
-
-.main-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-
-}
-
-.main-page{
-  margin-top: 200px;
-  display: flex;
-  flex-direction: row;
-  grid-gap:10px;
-  justify-content: center;
-  align-items: center;
-}
+} */
 
 
 .card {
-  width: 300px; /* Set the width of your card */
-  height: 300px; /* Set the height of your card */
-  perspective: 1000px; /* Define the depth perspective for the 3D effect */
+  width: 300px; 
+  height: 300px ; 
+  perspective: 1000px;
   position: relative;
   cursor: pointer; /* Change the cursor to indicate interactivity */
   
@@ -195,7 +169,7 @@ main  {
   max-height: 40px;
 
 }
-footer .social-links a {
+.social-links a {
   margin: 20px 20px;
   background: var(--primary-color);
   padding: 10px 14px;
@@ -203,16 +177,9 @@ footer .social-links a {
   max-height: 45px;
   color: var(--third-color);
 }
-footer .social-links a:hover {
+ .social-links a:hover {
   color: var(--sixth-color);
   background: var(--third-color);
-}
-
-footer .contact-box {
-  background: var(--fith-color);
-  padding: 100px;
-  border-radius: 20px;
-  border-style: dashed;
 }
 
 

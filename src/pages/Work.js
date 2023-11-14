@@ -22,8 +22,7 @@ function Work(){
     return (
       <>
           <Header />
-          <h2>Projects</h2>
-          <div className='front-page'>
+          <div className='work container'>
           {details.map((createCard))}
          </div>
          <Footer />

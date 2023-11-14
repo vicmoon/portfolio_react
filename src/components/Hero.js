@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 
 function Hero(){
     return (
@@ -18,6 +20,7 @@ function Hero(){
            </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
 }

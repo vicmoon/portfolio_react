@@ -3,7 +3,6 @@
   --primary-color: #73c2fc;
   --secondary-color: white;
   --third-color: black;
-  --sixth-color: white;
   --heading-font: "Montserrat", sans-serif;
 }
 
@@ -15,9 +14,9 @@ body{
 
 }
 
-.front-page {
+.work {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
@@ -36,6 +35,21 @@ body{
 
 }
 
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+  margin-top:100px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+
 .hero{
   display: flex;
   flex-direction: column;
@@ -44,15 +58,17 @@ body{
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-
-.about-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+.hero h1 {
+  margin-bottom: 30px;
 }
 
+
+.about{
+  margin-top: 20px;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+}
 
 
 .card {
@@ -73,38 +89,6 @@ body{
 
 .card:hover .card-inner {
   transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
-}
-
-.card-front-name h1{
-  color: #0d1b32;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-
-
-
-}
-.card-front-name,
-.card-back-name {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-back-name {
-  /* Back content (text) styles */
-  background-color: var(--third-color);
-  transform: rotateY(180deg); /* Initially, hide the back side of the card */
-}
-
-.card-back-name p {
-  padding: 10px;
-  text-align: justify;
-  color: black;
 }
 
 
@@ -132,14 +116,13 @@ body{
   color: black;
 }
 
-.main-grid .card img {
+.work .card img {
   width: 100%;
   height: 100%;
   margin: 0 auto;
 }
 
 .about-grid {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -165,24 +148,7 @@ body{
   flex-direction: row;
   justify-content: center;
   margin-top: 100px;
-  color: var(--third-color);
-}
-
-.logo {
-  max-height: 40px;
-
-}
-.social-links a {
-  margin: 20px 20px;
-  background: var(--primary-color);
-  padding: 10px 14px;
-  border-radius: 50px;
-  max-height: 45px;
-  color: var(--third-color);
-}
- .social-links a:hover {
-  color: var(--sixth-color);
-  background: var(--third-color);
+  color: var(--primary-color)
 }
 
 

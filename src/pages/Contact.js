@@ -6,7 +6,13 @@ function Contact(){
     return (
       <>
           <Header />
-          <h2>Contact me</h2>
+          <>
+          <div id="contact">
+            <a href= "https://www.linkedin.com/in/victoriamunteanu/" target="_blank">[LinkedIn]</a>
+            <a href= "mailto:munteanuvictoria1@gmail.com" target="_blank">[Email] </a>
+            <a href= "https://github.com/vicmoon" target="_blank">[ GitHub  ]</a> 
+         </div>
+          </>
           <Footer />
 
       </>

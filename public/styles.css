@@ -1,32 +1,18 @@
-body{
-    margin: 0 auto;
-    background-color: black;
-    color: white;
-}
-
 
 :root {
   --primary-color: #73c2fc;
   --secondary-color: white;
   --third-color: black;
-  --forth-color: yellow;
-  --fith-color: #0d1b32;
   --sixth-color: white;
   --heading-font: "Montserrat", sans-serif;
 }
-body {
-  font-family: var(--heading-font);
-  background-color: var(--third-color);
-  
-}
-h1,
-h2,
-h3,
-h4,
-h6,
-p {
-  color: var(--sixth-color);
-  font-family: var(--heading-font);
+
+body{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .front-page {
@@ -37,11 +23,10 @@ p {
   margin-top: 100px;
   gap: 10px;
  
-
   
 }
 
-/* .navbar {
+.nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,7 +34,25 @@ p {
   padding: 10px 20px;
 
 
-} */
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 
 
 .card {

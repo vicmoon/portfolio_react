@@ -1,4 +1,3 @@
-import react from 'react';
 
 function Avatar(props){
     return (

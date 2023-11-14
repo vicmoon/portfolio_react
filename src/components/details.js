@@ -1,4 +1,5 @@
 const details = [
+    
     {   id : 1,
         name :"Javascript- exercises",
         image:"images/javascript.JPG",

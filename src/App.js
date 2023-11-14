@@ -9,7 +9,7 @@ import NoPage from './pages/NoPage';
 
 function App() {
     return (
-            <div className='container'>
+            
             <BrowserRouter>
             <Routes>
             <Route index element= {<Home />}  />
@@ -20,7 +20,7 @@ function App() {
             <Route path="*" element= {<NoPage />} />
             </Routes>
             </BrowserRouter>
-           </div>
+           
     );
 }
 export default App;

@@ -2,10 +2,11 @@ import Footer from "../components/Footer";
 import Header  from "../components/Header";
 
 
+
 function Contact(){
     return (
       <>
-          <Header />
+        <Header/>
           <>
           <div id="contact">
             <a href= "https://www.linkedin.com/in/victoriamunteanu/" rel="noreferrer" target="_blank">[LinkedIn]</a>

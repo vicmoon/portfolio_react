@@ -7,17 +7,17 @@ import Work from './pages/Work';
 import NoPage from '../src/pages/NoPage';
 
 
+
 function App() {
     return (
-            
             <BrowserRouter>
             <Routes>
-            <Route index element= {<Home />}  />
-            <Route path="/home" element= {<Home />} />
-            <Route path="/about" element= {<About />} />
-            <Route path="/work" element= {<Work />} />
-            <Route path="/contact" element= {<Contact />} />
-            <Route path="*" element= {<NoPage />} />
+            <Route  index element= {<Home />}  />
+            <Route  path="/home" element= {<Home />} />
+            <Route  path="/about" element= {<About />} />
+            <Route  path="/work" element= {<Work />} />
+            <Route  path="/contact" element= {<Contact />} />
+            <Route  path="*" element= {<NoPage />} />
             </Routes>
             </BrowserRouter>
            

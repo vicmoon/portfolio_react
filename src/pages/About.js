@@ -2,6 +2,7 @@ import Header  from "../components/Header";
 import aboutDetails from "../components/aboutDetails";
 import Footer from "../components/Footer";
 
+
 function createAbout(props){
     return (
         <div>

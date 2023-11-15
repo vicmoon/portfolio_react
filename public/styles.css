@@ -54,6 +54,10 @@ body{
   color: black;
 }
 
+.active{
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
 
 
 @media screen and (max-width: 400px) {

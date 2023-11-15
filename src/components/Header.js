@@ -13,7 +13,7 @@ function Header() {
           </li>
           <li>
             <NavLink to="/about" className="navbar-brand" activeClassName="active">
-              About me
+              About
             </NavLink>
           </li>
           <li>

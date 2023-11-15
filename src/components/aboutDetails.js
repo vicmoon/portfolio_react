@@ -10,7 +10,7 @@ const aboutDetails = [
     {
         id: 2,
         title: "Education",
-        description: "I studied at Ovidius University in Constanta Romania, where I graduated with a Bachelor of Arts in English and German. I also studied in Italy at Scuola Superiore per Mediatori Linguistici, Pisa, where I graduated with a qualification in English- Italian conference interpereting. I have also grauated from SheCodes, an online school teaching women to code. My formal education has given me a strong foundation in the English and German languages, as well as in the Italian language, at the same time, my practical experiences had given me the opportunity to develop my communication skills and my ability to work in a team."
+        description: "I studied at Ovidius University in Constanta Romania, where I graduated with a Bachelor of Arts in English and German. I also studied in Italy at Scuola Superiore per Mediatori Linguistici, Pisa, where I graduated with a qualification in English - Italian conference interpreting. I have also graduated from SheCodes, an online school teaching women to code. My formal education has given me a strong foundation in the English and German languages, as well as in the Italian language, at the same time, my practical experiences have given me the opportunity to develop my communication skills and my ability to work in a team."
 
     },
 

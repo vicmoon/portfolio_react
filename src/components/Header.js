@@ -6,13 +6,13 @@ function Header(){
     return (
 
         <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="nav-links">
-        <a className="navbar-brand" href="/home">Home</a>
-        <a className="navbar-brand" href="/about">About</a>
-        <a className="navbar-brand" href="/contact">Contact</a>
-        <a className="navbar-brand" href="/work">Work</a>
-        </div>
+        <nav className="navbar">
+                <ul>
+                    <li><a className="navbar-brand" href="/home">Home</a></li>
+                    <li><a className="navbar-brand" href="/about">About</a></li>
+                    <li><a className="navbar-brand" href="/work">Projects</a></li>
+                    <li><a className="navbar-brand" href="/contact">Contact</a></li>
+                </ul>
         </nav>
         </>
     );

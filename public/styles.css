@@ -25,16 +25,69 @@ body{
   
 }
 
-.nav-links {
+.navbar {
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  .about{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
 
 
 }
 
+}
 
 #contact {
   display: flex;

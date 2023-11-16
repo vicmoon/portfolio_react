@@ -24,8 +24,8 @@ const details = [
     },
 
 {       id : 4,
-        name :"Javescript Exercises",
-        image:"images/javascript.JPG",
+        name :"JavaScript Game",
+        image:"images/game.png",
         link:"https://vicmoon.github.io/Javascript_Mainproject/",
         language:"#CSS #HTML #JavaScript #Game"
 

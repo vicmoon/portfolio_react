@@ -31,9 +31,8 @@ body{
   border: 2 solid var(--primary-color);
   border-radius: 50%;
   margin-left: 2px;
-  margin-bottom: 5px;
   height: auto;
-  margin-top: 10px; /* Adjust as needed */
+  /* Adjust as needed */
 }
 
 #logo:hover{
@@ -43,6 +42,8 @@ body{
 .navbar {
   background-color: var(--primary-color);
   overflow: hidden;
+
+
 }
 
 .navbar ul {
@@ -59,8 +60,9 @@ body{
 .navbar a {
   display: block;
   color: black;
+  margin-top: -10px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 9px 9px;
   text-decoration: none;
 }
 
@@ -71,7 +73,7 @@ body{
 }
 
 .navbar .active{
-color: var(--secondary-color)
+ color: var(--secondary-color)
 }
 
 

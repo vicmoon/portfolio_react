@@ -25,6 +25,21 @@ body{
   
 }
 
+
+#logo{
+  width: 60px; /* Adjust as needed */
+  border: 2 solid var(--primary-color);
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-bottom: 5px;
+  height: auto;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+#logo:hover{
+  cursor: pointer;
+}
+
 .navbar {
   background-color: var(--primary-color);
   overflow: hidden;
@@ -50,8 +65,9 @@ body{
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  transform: scale(1.2);
   color: black;
+
 }
 
 .navbar .active{
@@ -68,6 +84,9 @@ color: var(--secondary-color)
   .navbar li {
     float: none;
     width: 100%;
+  }
+  #logo{
+    display: none;
   }
 }
 
@@ -88,6 +107,9 @@ color: var(--secondary-color)
   flex-direction: column;
 }
 
+#logo{
+  display: none;  
+}
 }
 
 #contact {
@@ -392,6 +414,9 @@ color: var(--secondary-color)
   text-align: justify;
   color: black;
 }
+#logo{
+  display: none;
+}
 }
 
 @media (max-width: 450px){
@@ -415,4 +440,5 @@ color: var(--secondary-color)
     justify-content: justify;
 
   }
+  
 }

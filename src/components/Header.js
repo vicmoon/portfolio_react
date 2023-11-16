@@ -5,6 +5,7 @@ function Header() {
   return (
     <>
       <nav className="navbar">
+        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Logo"></img></a>
         <ul>
           <li>
             <NavLink exact to="/home" className="navbar-brand" activeClassName="active">

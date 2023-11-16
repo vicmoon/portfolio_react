@@ -1,7 +1,7 @@
 const aboutDetails = [
     {
         id: 1,
-        title: "About Me",
+        title: "Background",
         description: "I have lived and worked in over 10 countries supporting myself through professional fashion modelling. After a few years of traveling, I decided to concentrate on something else. To this day, my intention while experimenting with different jobs, cultures and skills is to be myself and improve my world. I speak English, German, Romanian and Italian..",
 
     },
@@ -9,7 +9,7 @@ const aboutDetails = [
 
     {
         id: 2,
-        title: "Education",
+        title: "Studies",
         description: "I studied at Ovidius University in Constanta, Romania where I graduated with a Bachelor of Arts in English and German. I also studied in Italy at Scuola Superiore per Mediatori Linguistici, Pisa, where I graduated with a qualification in English - Italian conference interpreting. I have also graduated from SheCodes, an online school teaching women to code. My formal education has given me a strong foundation in the English, Italian and German languages. At the same time, my practical experiences have given me the opportunity to develop my communication skills and my ability to work in a team."
 
     },

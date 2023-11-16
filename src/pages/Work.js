@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Card from "../components/Card";
-import details from "../components/details";
+import details from "../components/workDetails";
 import Footer from "../components/Footer";
 
 

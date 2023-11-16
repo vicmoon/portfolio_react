@@ -24,7 +24,7 @@ const details = [
     },
 
 {       id : 4,
-        name :"Javescript Game",
+        name :"Javescript Exercises",
         image:"images/javascript.JPG",
         link:"https://vicmoon.github.io/Javascript_Mainproject/",
         language:"#CSS #HTML #JavaScript #Game"
@@ -62,7 +62,7 @@ const details = [
         name:"Weather App in React",
         image:"images/weather.JPG ",
         link:"https://illustrious-beignet-228d77.netlify.app/ ",
-        language:"#React #Creative #CSS #HTML"
+        language:"#React #CSS #HTML"
 
 },
 
@@ -70,13 +70,13 @@ const details = [
         name :"JavaScript Weather App",
         image:"images/vanilajs.JPG ",
         link:"https://vanillaweathersearch.netlify.app/ ",
-        language:" My first JavaScript project."
+        language:" #JavaScript."
 },
 {       id : 11,
-        name :"React Project",
+        name :"Simple Landing Page",
         image:"images/reading.JPG",
         link:"https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/874/197/original/Finalproject.html?1653155333/ ",
-        language:"My first landing page using HTML and CSS."
+        language:"# HTML #CSS."
 
 }
 

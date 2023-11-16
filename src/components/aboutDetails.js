@@ -2,7 +2,7 @@ const aboutDetails = [
     {
         id: 1,
         title: "Background",
-        description: "I have lived and worked in over 10 countries supporting myself through professional fashion modelling. After a few years of traveling, I decided to concentrate on something else. To this day, my intention while experimenting with different jobs, cultures and skills is to be myself and improve my world. I speak English, German, Romanian and Italian..",
+        description: "I have lived and worked in over 10 countries supporting myself through professional fashion modelling. After a few years of traveling, I decided to concentrate on something else. To this day, my intention while experimenting with different jobs, cultures and skills is to be myself and improve my world. I speak English, German, Romanian and Italian.",
 
     },
 

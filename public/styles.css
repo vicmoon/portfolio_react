@@ -27,7 +27,7 @@ body{
 
 
 #logo{
-  width: 60px; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
   border: 2 solid var(--primary-color);
   border-radius: 50%;
   margin-left: 2px;

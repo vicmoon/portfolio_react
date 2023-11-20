@@ -87,9 +87,7 @@ body{
     float: none;
     width: 100%;
   }
-  #logo{
-    display: none;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -109,9 +107,7 @@ body{
   flex-direction: column;
 }
 
-#logo{
-  display: none;  
-}
+
 }
 
 #contact {
@@ -416,9 +412,7 @@ body{
   text-align: justify;
   color: black;
 }
-#logo{
-  display: none;
-}
+
 }
 
 @media (max-width: 450px){

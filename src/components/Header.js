@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <nav className="navbar">
-        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Home" meta= "Home"></img></a>
+        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Home" title="Home"></img></a>
         <ul>
     
           <li>

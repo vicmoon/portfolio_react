@@ -66,17 +66,20 @@ body{
 
 .navbar li {
   float: left;
+  padding: 10px;
+
 }
 
 .navbar a {
   color: black;
   text-align: center;
   padding: 9px 9px;
+
   text-decoration: none;
 }
 
-.navbar a:hover {
-  transform: scale(1.2);
+.nav-item a:hover {
+  transform: scale(1);
   color: var(--secondary-color);
 
 }
@@ -237,6 +240,10 @@ body{
   color: var(--primary-color)
 }
 
+.footer :hover{
+  color: var(--secondary-color);
+  transform: scale(1.2);
+}
 
 @media (max-width: 900px) {
 

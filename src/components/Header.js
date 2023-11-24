@@ -9,23 +9,24 @@ function Header() {
       <nav className="navbar">
         <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Home" title="Home"></img></a>
         <ul>
-    
           <li>
-            <NavLink to="/about" className="nav-item" activeClassName="active">
+            <ThemeToggle />
+          </li>
+          <li>
+            <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/work" className="nav-item" activeClassName="active">
+            <NavLink to="/work" className="nav-item" activeClassName="active" title="Coding projects">
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className="nav-item" activeClassName="active">
+            <NavLink to="/contact" className="nav-item" activeClassName="active" title="Contact me">
               Contact
             </NavLink>
           </li>
-          <ThemeToggle />
         </ul>
       </nav>
     </>

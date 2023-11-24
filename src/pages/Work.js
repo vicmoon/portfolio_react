@@ -2,6 +2,9 @@ import Header from "../components/Header";
 import Card from "../components/Card";
 import details from "../components/workDetails";
 import Footer from "../components/Footer";
+import { useContext } from "react";
+import ThemeContext from "../components/ThemeContext";
+
 
 
 
@@ -18,16 +21,20 @@ function createCard(detail) {
 
 }
 
-function Work(){
+const Work = () => {
+    const { theme } = useContext(ThemeContext);
     return (
       <>
           <Header />
-          <div className='work container'>
+          <div className='work container' style={{ background: theme.body, color: theme.text }}>
           {details.map((createCard))}
          </div>
          <Footer />
       </>
     );
+
+
 }
+
 
 export default Work;

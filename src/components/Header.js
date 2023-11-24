@@ -1,32 +1,31 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import ThemeToggle from './ThemeToogle';
+
 
 function Header() {
   return (
     <>
       <nav className="navbar">
-        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Logo"></img></a>
+        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Home" meta= "Home"></img></a>
         <ul>
+    
           <li>
-            <NavLink exact to="/home" className="navbar-brand" activeClassName="active">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className="navbar-brand" activeClassName="active">
+            <NavLink to="/about" className="nav-item" activeClassName="active">
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/work" className="navbar-brand" activeClassName="active">
+            <NavLink to="/work" className="nav-item" activeClassName="active">
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" className="navbar-brand" activeClassName="active">
+            <NavLink to="/contact" className="nav-item" activeClassName="active">
               Contact
             </NavLink>
           </li>
+          <ThemeToggle />
         </ul>
       </nav>
     </>

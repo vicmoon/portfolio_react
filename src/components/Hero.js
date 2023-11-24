@@ -16,7 +16,9 @@ function Hero(){
                   />
                </div>
               <div className="card-back">
-             <p>Junior frontend developer</p>
+              <a href="https://www.linkedin.com/in/victoriamunteanu/" target="_blank" rel="noreferrer" title = "My LinkedIn">
+              <p>Junior frontend developer</p>
+            </a>
            </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
-import React, { useContext,useState} from "react";
+import React, { useContext} from "react";
 import ThemeContext from "./ThemeContext";
 import "./ThemeToogle.css"
 
 const ThemeToggle = () => {
   const { toggleTheme } = useContext(ThemeContext);
-  const {isActive, setActive} = useState(false);
+
 
 
 

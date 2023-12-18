@@ -16,7 +16,7 @@ function Hero(){
                   />
                </div>
               <div className="card-back">
-              <a href="https://www.linkedin.com/in/victoriamunteanu/" target="_blank" rel="noreferrer" title = "My LinkedIn">
+              <a href="https://www.linkedin.com/in/victoriamunteanu/" target="_blank" rel="noreferrer" title = "LinkedIn">
               <p>Junior frontend developer</p>
             </a>
            </div>

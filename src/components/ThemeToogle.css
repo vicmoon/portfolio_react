@@ -1,9 +1,7 @@
-.theme-toggle-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+button:hover {
+  background-color: #363062;
   cursor: pointer;
+  transform: scale(1) ;
+  border: 10px solid #363062;
 }
 

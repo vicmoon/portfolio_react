@@ -21,14 +21,11 @@ const ThemeToggle = () => {
     toggleTheme();
   };
 
-  function handleChange(){
-    setActive(true);
 
-  }
 
   return (
    
-    <button onClick={handleClick} onchange={handleChange} style= {buttonStyle} >
+    <button onClick={handleClick}  style= {buttonStyle} >
       🌙
     </button>
     

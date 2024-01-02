@@ -135,8 +135,10 @@ body{
 
 .hero img{
   border-radius: 5px;
+}
 
-
+.hero__description{
+  margin-top: 5px;
 }
 
 .about{

@@ -1,17 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import ThemeToggle from './ThemeToogle';
+// import ThemeToggle from './ThemeToogle';
 
 
 function Header() {
   return (
     <>
       <nav className="navbar">
-        <a href='/home' rel="noreferrer"> <img src="./images/Victoria1.jpg"id="logo" alt="Home" title="Home"></img></a>
         <ul>
-          <li>
-            <ThemeToggle />
-          </li>
+         <a href='/home' rel="noreferrer"> Home</a>
+        
           <li>
             <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
               About

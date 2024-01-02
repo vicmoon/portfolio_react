@@ -12,7 +12,7 @@ const ThemeToggle = () => {
     // backgroundColor: isActive ? '#363062' : '#ffffff',
     // color: isActive ? '#363062' : '#000000',         // Set your preferred text color        // Set padding
     border: 'none',             // Remove border
-    borderRadius: '20px',        // Add border radius
+    borderRadius: '30px',        // Add border radius
     cursor: 'pointer', 
     marginRight: '5px'
   };

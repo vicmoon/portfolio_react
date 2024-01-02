@@ -1,45 +1,30 @@
 
 :root {
   --primary-color: #73c2fc;
-  --secondary-color: white;
+  --secondary-color: #d9bda5;
   --third-color: black;
   --heading-font: "Montserrat", sans-serif;
   --body-font: "Montserrat", sans-serif;
-  --day-color: white;
-  --night-color: black;
-  --body-day-color: white;
-  --body-night-color: black;
-  --body-text-color: white;
+  --day-color: #d9bda5;
+  --night-color: 
+  --body-day-color: #e5cbba;
+  --body-night-color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  --body-text-color: #d9bda5;
 }
-
+/* 
 body{
     margin: 0 auto;
     padding: 0;
-    color: var(--day-color);
-    background:var(--day-color);
+    background:var(--night-color);
    
  
-}
+} */
 
 #day-night{
-  width: 30px;
-
+  width: 20px;
   margin-bottom: 10px;
   border-radius: 50%;
 }
-#logo{
-  width: 50px; /* Adjust as needed */
-  border: 2 solid var(--primary-color);
-  border-radius: 50%;
-  margin-left: 2px;
-  height: auto;
-  /* Adjust as needed */
-}
-
-#logo:hover{
-  cursor: pointer;
-}
-
 
 .work {
   display: flex;
@@ -52,7 +37,7 @@ body{
 }
 
 .navbar {
-  background-color: var(--primary-color);
+  background-color: var(--night-color);
   overflow: hidden;
 }
 
@@ -74,7 +59,6 @@ body{
   color: black;
   text-align: center;
   padding: 9px 9px;
-
   text-decoration: none;
 }
 
@@ -85,13 +69,13 @@ body{
 }
 
 .navbar .active{
- color: var(--secondary-color)
+ color: var(--primary-color)
 }
 
 
 @media screen and (max-width: 400px) {
   .navbar ul {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
@@ -104,8 +88,9 @@ body{
 
 @media screen and (max-width: 600px) {
   .navbar ul {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+
   }
 
   .navbar li {
@@ -148,6 +133,11 @@ body{
   margin-bottom: 30px;
 }
 
+.hero img{
+  border-radius: 5px;
+
+
+}
 
 .about{
   margin-top: 100px;
@@ -161,8 +151,7 @@ body{
 
 
 .card {
-  width: 300px; 
-  height: 300px ; 
+  
   perspective: 1000px;
   position: relative;
   cursor: pointer; /* Change the cursor to indicate interactivity */
@@ -170,8 +159,7 @@ body{
 }
 
 .card-inner {
-  width: 100%;
-  height: 100%;
+  
   transition: transform 0.5s; /* Add a smooth transition for the flip effect */
   transform-style: preserve-3d;
 }
@@ -190,7 +178,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+
 }
 
 .card-back {

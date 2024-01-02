@@ -5,22 +5,17 @@ function Hero(){
     return (
          <div className='hero'>
           <h1>Hi, I'm Victoria</h1>
-          <div className="card">
-            <div className="card-inner">
-              <div className="card-front">
+          <div>
                 <img
-                    src="../images/Victoria1.jpg"
+                    src="../images/victoria_new.jpg
+                    "
                     className="img-fluid"
                     width="300px"
                     alt="Myself"
                   />
-               </div>
-              <div className="card-back">
-              <a href="https://www.linkedin.com/in/victoriamunteanu/" target="_blank" rel="noreferrer" title = "LinkedIn">
-              <p>Junior frontend developer</p>
-            </a>
-           </div>
-          </div>
+        </div>
+        <div className="hero__description">
+          <p>Self taught junior frontend developer</p>
         </div>
         <Footer />
       </div>

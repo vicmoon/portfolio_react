@@ -17,14 +17,14 @@ const aboutDetails = [
     {
         id: 3,
         title: "Skills",
-        description: "I am a creative person with a passion for learning and reading. I consider myself to be a fast learner and who's not afraid to try new things. I am a good communicator and I enjoy working in a team. Also, I am a listener and I am not afraid to ask questions about what I'm hearing."
+        description: "I am a creative person with a passion for learning by doing. I also consider myself to be a fast learner who's not afraid of trying new things. Experience shows that I am a good communicator and I enjoy working in a team as well as on my own. I am an introvert happy to learn about and understand people :) "
 
     },
 
     {
         id: 4,
         title: "Coding",
-        description: "I am a junior frontend developer. I have experience with HTML, CSS, JavaScript, React, Bootstrap, Git and GitHub, Node.js, Express, Mongoose.  I am currently improving my React and JavaScript skills and I am interested in a frontend developer job."
+        description: "I am a junior frontend developer. I have experience with HTML, CSS, JavaScript, React, Bootstrap, Git and GitHub, Node.js, Express, Mongoose, ServiceNow (developer & administration).  I am currently improving my React and JavaScript skills and I am interested in developer opportunities."
     }
 
 

@@ -39,6 +39,7 @@ body{
 .navbar {
   background-color: var(--night-color);
   overflow: hidden;
+  justify-content: center;
 }
 
 
@@ -50,7 +51,7 @@ body{
 }
 
 .navbar li {
-  float: left;
+  float: center;
   padding: 10px;
 
 }

@@ -8,7 +8,11 @@ function Header() {
     <>
       <nav className="navbar">
         <ul>
-         <a href='/home' rel="noreferrer"> Home</a>
+        <li>
+            <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
+              Home
+            </NavLink>
+          </li>
         
           <li>
             <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">

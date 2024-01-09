@@ -2,6 +2,12 @@ const details = [
     
     
     {   id : 1,
+        name :"Dice Game",
+        image:"images/pig-game.png",
+        link:"https://ornate-halva-c5686c.netlify.app/",
+        language:"#DOM #Class: manipulation, #JavaScript"
+    },
+    {   id : 1,
         name :"Guess the number!",
         image:"images/Guess_the_number.png",
         link:"https://soft-pika-ed6b48.netlify.app/",

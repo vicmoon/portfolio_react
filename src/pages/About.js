@@ -20,7 +20,7 @@ const About = () => {
     return (
       <>
             <Header />
-            <div className=" about container" style={{ background: theme.body, color: theme.text }}>
+            <div className="about container" style={{ background: theme.body, color: theme.text }}>
             {aboutDetails.map(createAbout)}
              <Footer />
             </div>

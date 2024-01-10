@@ -15,7 +15,7 @@ function Card(props){
             </a>
             </div>
           </div>
-        </div>
+      </div>
         </div>
     );
 

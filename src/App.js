@@ -5,14 +5,14 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
 import NoPage from '../src/pages/NoPage';
-import ThemeProvider from './components/ThemeProvider';
+
 
 
 
 
 function App() {
     return (
-        <ThemeProvider>
+        
             <BrowserRouter>
             <Routes>
             <Route  index element= {<Home />}  />
@@ -23,7 +23,7 @@ function App() {
             <Route  path="*" element= {<NoPage />} />
             </Routes>
             </BrowserRouter>
-        </ThemeProvider>
+   
            
     );
 }

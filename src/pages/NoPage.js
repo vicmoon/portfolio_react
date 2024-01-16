@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header  from "../components/Header";
 
 
@@ -6,6 +7,7 @@ function NoPage(){
       <>
           <Header />
           <h2>Error 404 : Not found</h2>
+          <Footer/>
 
       </>
    

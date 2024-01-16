@@ -3,28 +3,25 @@
   --primary-color: #73c2fc;
   --secondary-color: #d9bda5;
   --third-color: black;
-  --heading-font: "Montserrat", sans-serif;
-  --body-font: "Montserrat", sans-serif;
+  /* --heading-font: "Montserrat", sans-serif; */
+  --body-font: 'Tektur', sans-serif;
   --day-color: #d9bda5;
   --night-color: 
   --body-day-color: #e5cbba;
   --body-night-color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
   --body-text-color: #d9bda5;
 }
-/* 
+
+
+
 body{
     margin: 0 auto;
     padding: 0;
-    background:var(--night-color);
+    font-family: var(--body-font);
    
  
-} */
-
-#day-night{
-  width: 20px;
-  margin-bottom: 10px;
-  border-radius: 50%;
 }
+
 
 .work {
   display: flex;
@@ -135,11 +132,12 @@ body{
 }
 
 .hero img{
-  border-radius: 5px;
+  border-radius: 20px;
+ 
 }
 
 .hero__description{
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .about{

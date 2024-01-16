@@ -1,8 +1,7 @@
 import Header  from "../components/Header";
 import aboutDetails from "../components/aboutDetails";
 import Footer from "../components/Footer";
-import ThemeContext from "../components/ThemeContext";
-import { useContext } from "react";
+
 
 
 function createAbout(props){
@@ -16,11 +15,11 @@ function createAbout(props){
 
 
 const About = () => {
-    const { theme } = useContext(ThemeContext);
+    
     return (
       <>
             <Header />
-            <div className="about container" style={{ background: theme.body, color: theme.text }}>
+            <div className="about container">
             {aboutDetails.map(createAbout)}
              <Footer />
             </div>

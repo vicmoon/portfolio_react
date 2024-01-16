@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import details from "../components/workDetails";
 import Footer from "../components/Footer";
 import { useContext } from "react";
-import ThemeContext from "../components/ThemeContext";
+
 
 
 
@@ -22,11 +22,11 @@ function createCard(detail) {
 }
 
 const Work = () => {
-    const { theme } = useContext(ThemeContext);
+
     return (
       <>
           <Header />
-          <div className='work container' style={{ background: theme.body, color: theme.text }}>
+          <div className='work container' >
           {details.map((createCard))}
          </div>
          <Footer />

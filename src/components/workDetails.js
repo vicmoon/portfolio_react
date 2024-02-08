@@ -4,13 +4,13 @@ const details = [
         name :"Slide Puzzle",
         image:"images/sponge.png",
         link:"https://extraordinary-peony-cd46ff.netlify.app/",
-        language:"#DOM #Class: manipulation, #JavaScript"
+        language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 13,
         name :"Dice Game",
         image:"images/pig-game.png",
         link:"https://ornate-halva-c5686c.netlify.app/",
-        language:"#DOM #Class: manipulation, #JavaScript"
+        language:"#DOM #Class manipulation, #JavaScript #CSS"
     },
     {   id : 12,
         name :"Guess the number!",

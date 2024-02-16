@@ -1,5 +1,11 @@
 const details = [
     
+    {   id : 15,
+        name :"Memory Game",
+        image:"images/memory.png",
+        link:"https://vermillion-tapioca-55e5ed.netlify.app/",
+        language:"#DOM manipulation, #JavaScript #CSS"
+    },
     {   id : 14,
         name :"Slide Puzzle",
         image:"images/sponge.png",

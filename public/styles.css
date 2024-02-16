@@ -1,7 +1,7 @@
 
 :root {
   --primary-color: #73c2fc;
-  --secondary-color:#e0c9a6;
+  --secondary-color:#FFF0E5;
   --third-color: black;
   /* --heading-font: "Montserrat", sans-serif; */
   --body-font: 'Tektur', sans-serif;
@@ -131,6 +131,11 @@ body{
 
 .hero img{
   border-radius: 20px;
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  display: flex;
+
  
 }
 

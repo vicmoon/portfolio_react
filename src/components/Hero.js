@@ -5,17 +5,18 @@ function Hero(){
     return (
          <div className='hero'>
           <h1>Hi, I'm Victoria</h1>
-          <p> Self taught frontend devloper</p>
           <div>
                 <img
-                    src="../images/victoria_round.jpg
+                    src="../images/victoria_new.jpg
                     "
                     className="img-fluid"
-                    // width="300px"
+                    width="300px"
                     alt="Myself"
                   />
         </div>
-        
+        <div className="hero__description">
+          <p>Self-taught junior frontend developer</p>
+        </div>
         <Footer />
       </div>
     )

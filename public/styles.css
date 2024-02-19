@@ -69,10 +69,10 @@ body{
  color: var(--primary-color)
 }
 
-#hero img{
+.hero img{
   border-radius: 70%;
   display: flex;
-  
+
 }
 
 @media screen and (max-width: 400px) {

@@ -7,7 +7,7 @@ function Hero(){
           <h1>Hi, I'm Victoria</h1>
           <div>
                 <img
-                    src="../images/victoriam.jpg
+                    src="../images/victoria_new.jpg
                     "
                     className="img-fluid"
                     width="300px"

@@ -9,8 +9,9 @@ function Hero(){
                 <img
                     src="../images/victoria_new.jpg
                     "
-                    className="img-fluid"
-                    width="300px"
+                    // className="img-fluid"
+                    // width="500px"
+                    // height='500px'
                     alt="Myself"
                   />
         </div>

@@ -69,45 +69,22 @@ body{
  color: var(--primary-color)
 }
 
-.hero img{
-  border-radius: 70%;
+.hero {
   display: flex;
 
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 90%;
 }
 
-@media screen and (max-width: 400px) {
-  .navbar ul {
-    flex-direction: row;
-    text-align: center;
-  }
-
-  .navbar li {
-    float: none;
-    width: 100%;
-  }
+.hero img{
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
   
-}
-
-@media screen and (max-width: 600px) {
-  .navbar ul {
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-  .navbar li {
-    float: none;
-    width: 100%;
-  }
-
-  .about{
-  margin-top: 20px;
-  display:flex;
-  flex-direction: column;
-}
-
 
 }
+
 
 #contact {
   display: flex;
@@ -139,9 +116,6 @@ body{
   border-radius: 60px;
   margin: 0 auto;
   display: flex;
-
-
- 
 }
 
 .hero__description{
@@ -241,19 +215,6 @@ body{
   color: var(--secondary-color);
   transform: scale(1.2);
 }
-
-@media (max-width: 900px) {
-
-  
-  .main-page {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
-  }
-
-}
  
 .card {
   width: 250px; /* Set the width of your card */
@@ -342,6 +303,51 @@ body{
 .about-section h1, p{
   text-align: justify;
 
+}
+@media (max-width: 900px) {
+
+  
+  .main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  .about{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .navbar ul {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+  
 }
 
 
@@ -450,4 +456,8 @@ body{
 
   }
   
+
+.hero p{
+ display: none;
+}
 }

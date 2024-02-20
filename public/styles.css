@@ -302,20 +302,9 @@ body{
  
 .about-section h1, p{
   text-align: justify;
-
 }
-@media (max-width: 900px) {
 
-  
-  .main-page {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
-  }
 
-}
 @media screen and (max-width: 600px) {
   .navbar ul {
     flex-direction: row;
@@ -334,54 +323,7 @@ body{
   flex-direction: column;
 }
 
-
 }
-
-@media screen and (max-width: 400px) {
-  .navbar ul {
-    flex-direction: row;
-    text-align: center;
-  }
-
-  .navbar li {
-    float: none;
-    width: 100%;
-  }
-  
-}
-
-
-@media (max-width: 660px){
-
-   .main-page{
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-
-  
-  .main-grid{
-    display: flex ;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-
-@media (max-width: 550px){
-
- .main-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 100px;
-  }
-
-  .main-grid{
-    display: flex ;
-    flex-direction: column;
-  }
 
   
  .card {
@@ -455,9 +397,28 @@ body{
     justify-content: justify;
 
   }
-  
 
-.hero p{
- display: none;
 }
+
+
+@media screen and (max-width: 400px) {
+  .navbar ul {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+  
+  .hero img{
+
+  }
+
+  .hero p{
+    font-size: 12px;
+   }
 }

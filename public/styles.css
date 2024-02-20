@@ -305,28 +305,8 @@ body{
 }
 
 
-@media screen and (max-width: 600px) {
-  .navbar ul {
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-  .navbar li {
-    float: none;
-    width: 100%;
-  }
-
-  .about{
-  margin-top: 20px;
-  display:flex;
-  flex-direction: column;
-}
-
-}
-
   
- .card {
+.card {
   width: 250px; /* Set the width of your card */
   height: 250px; /* Set the height of your card */
   perspective: 1000px; /* Define the depth perspective for the 3D effect */
@@ -372,6 +352,33 @@ body{
   padding: 10px;
   text-align: justify;
   color: black;
+}
+
+
+
+
+/* Media */
+
+
+
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  .about{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+}
+
 }
 
 

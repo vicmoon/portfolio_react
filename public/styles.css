@@ -374,7 +374,6 @@ body{
   color: black;
 }
 
-}
 
 @media (max-width: 450px){
 
@@ -414,10 +413,7 @@ body{
     width: 100%;
   }
   
-  .hero img{
-
-  }
-
+  
   .hero p{
     font-size: 12px;
    }

@@ -1,8 +1,18 @@
 const details = [
-    
+
+
+
+
+
+    {   id : 16,
+        name :"Fictive Virtual Personal Banking",
+        image:"images/fictive_bank.png",
+        link:"https://clinquant-cajeta-42eed6.netlify.app/",
+        language:"#DOM manipulation, #JavaScript #CSS"
+    },
     {   id : 15,
         name :"Memory Game",
-        image:"images/memory.png",
+        image:"images/memory1.png",
         link:"https://vermillion-tapioca-55e5ed.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },

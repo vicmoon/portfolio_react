@@ -2,14 +2,14 @@ const details = [
 
 
     {   id : 18,
-        name :"My Games board",
+        name :"Games board",
         image:"images/games_board.PNG",
         link:"https://golden-gnome-e8d793.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 17,
         name :"Tic-Tac-Toe",
-        image:"images/game_tictactoe.png",
+        image:"images/tictactoe.png",
         link:"https://snazzy-speculoos-db3893.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },

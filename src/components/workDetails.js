@@ -1,9 +1,11 @@
 const details = [
 
-
-
-
-
+    {   id : 17,
+        name :"Tic-Tac-Toe",
+        image:"images/game_tictactoe.png",
+        link:"https://snazzy-speculoos-db3893.netlify.app/",
+        language:"#DOM manipulation, #JavaScript #CSS"
+    },
     {   id : 16,
         name :"Fictive Virtual Personal Banking",
         image:"images/fictive_bank.png",

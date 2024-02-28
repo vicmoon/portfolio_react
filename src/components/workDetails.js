@@ -1,6 +1,15 @@
 const details = [
 
 
+
+
+    {   id : 19,
+        name :"Fictive Bank Site",
+        image:"images/banking.jpg",
+        link:"https://stirring-kashata-29068c.netlify.app/",
+        language:"#Advanced DOM manipulation,  #Slide element, #Sticky Navigation, #DOM events, #IntersectionObserver #JavaScript #CSS" 
+    },
+
     {   id : 18,
         name :"Games board",
         image:"images/games_board.PNG",

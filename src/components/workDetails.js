@@ -1,26 +1,20 @@
 const details = [
 
-
-<<<<<<< Updated upstream
-<<<<<<< HEAD
     {   id : 17,
-        name :"Map",
+        name :"Map - save your fav places",
         image:"images/map.png",
         link:"https://effervescent-travesseiro-b371e9.netlify.app/",
         language:"#ObjectOrientedProgramming, #JavaScript, #Leaflet, #API, #Geolocation"
-=======
 
+    },
 
     {   id : 19,
         name :"Fictive Bank Site",
         image:"images/banking.jpg",
         link:"https://stirring-kashata-29068c.netlify.app/",
         language:"#Advanced DOM manipulation,  #Slide element, #Sticky Navigation, #DOM events, #IntersectionObserver #JavaScript #CSS" 
->>>>>>> 5e4cdc9eeef96d46003b51b607abc823404511b0
+
     },
-=======
-  
->>>>>>> Stashed changes
 
     {   id : 18,
         name :"Games board",

@@ -1,13 +1,35 @@
 const details = [
 
 
+<<<<<<< HEAD
     {   id : 17,
         name :"Map",
         image:"images/map.png",
         link:"https://effervescent-travesseiro-b371e9.netlify.app/",
         language:"#ObjectOrientedProgramming, #JavaScript, #Leaflet, #API, #Geolocation"
+=======
+
+
+    {   id : 19,
+        name :"Fictive Bank Site",
+        image:"images/banking.jpg",
+        link:"https://stirring-kashata-29068c.netlify.app/",
+        language:"#Advanced DOM manipulation,  #Slide element, #Sticky Navigation, #DOM events, #IntersectionObserver #JavaScript #CSS" 
+>>>>>>> 5e4cdc9eeef96d46003b51b607abc823404511b0
     },
 
+    {   id : 18,
+        name :"Games board",
+        image:"images/games_board.PNG",
+        link:"https://golden-gnome-e8d793.netlify.app/",
+        language:"#DOM manipulation, #JavaScript #CSS"
+    },
+    {   id : 17,
+        name :"Tic-Tac-Toe",
+        image:"images/tictactoe.png",
+        link:"https://snazzy-speculoos-db3893.netlify.app/",
+        language:"#DOM manipulation, #JavaScript #CSS"
+    },
     {   id : 16,
         name :"Fictive Virtual Personal Banking",
         image:"images/fictive_bank.png",

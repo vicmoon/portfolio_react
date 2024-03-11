@@ -1,6 +1,7 @@
 const details = [
 
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     {   id : 17,
         name :"Map",
@@ -17,6 +18,9 @@ const details = [
         language:"#Advanced DOM manipulation,  #Slide element, #Sticky Navigation, #DOM events, #IntersectionObserver #JavaScript #CSS" 
 >>>>>>> 5e4cdc9eeef96d46003b51b607abc823404511b0
     },
+=======
+  
+>>>>>>> Stashed changes
 
     {   id : 18,
         name :"Games board",

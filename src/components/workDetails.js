@@ -10,7 +10,7 @@ const details = [
 
     
     {   id : 17,
-        name :"Map - save your fav places",
+        name :"Map your workouts",
         image:"images/map.png",
         link:"https://effervescent-travesseiro-b371e9.netlify.app/",
         language:"#ObjectOrientedProgramming, #JavaScript, #Leaflet, #API, #Geolocation"

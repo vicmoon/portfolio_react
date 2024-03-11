@@ -1,8 +1,12 @@
 const details = [
 
 
-
-
+    {   id : 17,
+        name :"Map",
+        image:"images/map.png",
+        link:"https://effervescent-travesseiro-b371e9.netlify.app/",
+        language:"#ObjectOrientedProgramming, #JavaScript, #Leaflet, #API, #Geolocation"
+    },
 
     {   id : 16,
         name :"Fictive Virtual Personal Banking",

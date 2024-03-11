@@ -1,5 +1,14 @@
 const details = [
 
+    {   id : 18,
+        name :"Guess the Word!",
+        image:"images/guesstheword.png",
+        link:"https://tourmaline-cajeta-b0d8d8.netlify.app/",
+        language:"#DOM, #JavaScript "
+
+    },
+
+    
     {   id : 17,
         name :"Map - save your fav places",
         image:"images/map.png",

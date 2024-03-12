@@ -8,7 +8,6 @@ const details = [
 
     },
 
-    
     {   id : 17,
         name :"Map your workouts",
         image:"images/map.png",

@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function Hero(){
     return (
          <div className='hero'>
-          <h1>Hi, I'm Victoria</h1>
+          <h1> Hi, I'm Victoria</h1>
           <div>
                 <img
                     src="../images/victoria_new.jpg

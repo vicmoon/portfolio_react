@@ -1,7 +1,14 @@
 const details = [
 
+    {   id : 19,
+        name :"🐍Snake Game",
+        image:"images/snake.png",
+        link:"https://fluffy-pudding-0f0eac.netlify.app/",
+        language:"#DOM, #JavaScript, #CSS"
+
+    },
     {   id : 18,
-        name :"Guess the Word!",
+        name :"🔠Guess the Word!",
         image:"images/guesstheword.png",
         link:"https://tourmaline-cajeta-b0d8d8.netlify.app/",
         language:"#DOM, #JavaScript "
@@ -9,7 +16,7 @@ const details = [
     },
 
     {   id : 17,
-        name :"Map your workouts",
+        name :"🗺️Map your workouts",
         image:"images/map.png",
         link:"https://effervescent-travesseiro-b371e9.netlify.app/",
         language:"#ObjectOrientedProgramming, #JavaScript, #Leaflet, #API, #Geolocation"
@@ -17,7 +24,7 @@ const details = [
     },
 
     {   id : 19,
-        name :"Fictive Bank Site",
+        name :"💰Fictive Bank Site",
         image:"images/banking.jpg",
         link:"https://stirring-kashata-29068c.netlify.app/",
         language:"#Advanced DOM manipulation,  #Slide element, #Sticky Navigation, #DOM events, #IntersectionObserver #JavaScript #CSS" 
@@ -25,43 +32,43 @@ const details = [
     },
 
     {   id : 18,
-        name :"Games board",
+        name :"🕹️Games board",
         image:"images/games_board.PNG",
         link:"https://golden-gnome-e8d793.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 17,
-        name :"Tic-Tac-Toe",
+        name :"❌Tic-Tac-Toe ",
         image:"images/tictactoe.png",
         link:"https://snazzy-speculoos-db3893.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 16,
-        name :"Fictive Virtual Personal Banking",
+        name :"💵Fictive Virtual Personal Banking",
         image:"images/fictive_bank.png",
         link:"https://clinquant-cajeta-42eed6.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 15,
-        name :"Memory Game",
+        name :"🤯Memory Game",
         image:"images/memory1.png",
         link:"https://vermillion-tapioca-55e5ed.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 14,
-        name :"Slide Puzzle",
+        name :"🧩Slide Puzzle",
         image:"images/sponge.png",
         link:"https://extraordinary-peony-cd46ff.netlify.app/",
         language:"#DOM manipulation, #JavaScript #CSS"
     },
     {   id : 13,
-        name :"Dice Game",
+        name :"🎲Dice Game",
         image:"images/pig-game.png",
         link:"https://ornate-halva-c5686c.netlify.app/",
         language:"#DOM #Class manipulation, #JavaScript #CSS"
     },
     {   id : 12,
-        name :"Guess the number!",
+        name :"🔢Guess the number!",
         image:"images/Guess_the_number.png",
         link:"https://soft-pika-ed6b48.netlify.app/",
         language:"#DOM manipulation, #JavaScript"
@@ -69,14 +76,14 @@ const details = [
     
     
     {   id : 11,
-        name :"Javascript- exercises",
+        name :"🏋️‍♀️Javascript- exercises",
         image:"images/javascript.JPG",
         link:"https://astonishing-pasca-5a36aa.netlify.app/",
         language:"#CSS #HTML #Express.js #Node.js"
     },
 
     {   id : 10,
-        name: "Creative Project",
+        name: "🪄Creative Project",
         image:"images/journey1.jpg",
         link: "https://www.victoriamoonteanu.com/",
         language:"#CSS #HTML #Express.js #Node.js"

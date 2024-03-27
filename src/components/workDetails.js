@@ -1,5 +1,12 @@
 const details = [
 
+    {   id : 20,
+        name :"🍪Pac-Man 👻",
+        image:"images/pacman.png",
+        link:"https://timely-cranachan-0d6ab6.netlify.app/",
+        language:"#DOM, #JavaScript, #CSS"
+
+    },
     {   id : 19,
         name :"🐍Snake Game",
         image:"images/snake.png",

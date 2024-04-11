@@ -1,5 +1,13 @@
 const details = [
     {   id : 21,
+        name :"Minion",
+        image:"images/minion.png",
+        link:"https://steady-tiramisu-8d8866.netlify.app/",
+        language:"#JavaScript, #CSS"
+
+    },
+    
+    {   id : 21,
         name :"🔮Magic Ball 8🔮",
         image:"images/magic.png",
         link:"https://timely-fox-b010dc.netlify.app/",

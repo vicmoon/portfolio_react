@@ -1,6 +1,6 @@
 const details = [
     {   id : 21,
-        name :"Minion",
+        name :" 👀 Minion 👀 ",
         image:"images/minion.png",
         link:"https://steady-tiramisu-8d8866.netlify.app/",
         language:"#JavaScript, #CSS"

@@ -1,4 +1,11 @@
 const details = [
+    {   id : 22,
+        name :"🃏 Flash Cards (API) 🤔 ",
+        image:"images/flash.png",
+        link:"https://bejewelled-unicorn-e13d98.netlify.app/",
+        language:"#JavaScript, #CSS , #React, #API"
+
+    },
     {   id : 21,
         name :" 👀 Minion 👀 ",
         image:"images/minion.png",

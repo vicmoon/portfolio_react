@@ -1,4 +1,11 @@
 const details = [
+    {   id : 23,
+        name :"🍎 Apple Catcher 🧺 ",
+        image:"images/apple_catcher.png",
+        link:"https://superlative-shortbread-44dd7e.netlify.app/",
+        language:"#JavaScript, #CSS , #Vite, #Phaser"
+
+    },
     {   id : 22,
         name :"🃏 Flash Cards (API) 🤔 ",
         image:"images/flash.png",

@@ -7,7 +7,11 @@ function Header() {
   return (
     <>
       <nav className="navbar">
-        <ul>
+       <input type="checkbox" class="toggle-menu"></input>
+       <div class="hamburger">
+
+      </div>
+        <ul class="menu">
         <li>
             <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
               Home

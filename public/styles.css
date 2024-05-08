@@ -395,8 +395,21 @@ body{
 }
 
 
+.nav-item.active {
+  /* Add your active link styles here */
+  background-color: #73c2fc; /* Example background color */
+  color: white; /* Example text color */
+  /* Add any other styles you want to apply to active links */
+}
+
+/* Optional: Hover effect for active links */
+.nav-item.active:hover {
+  /* Add your hover styles for active links */
+  background-color: #4da9e5; /* Example hover background color */
+}
+
 /* Styles for small screens */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
   .dropdown {
     position: relative;
     display: inline-block;
@@ -435,36 +448,12 @@ body{
   }
 
   .menu-large {
-    display: none;
-  }
-
-  .navbar ul {
-    font-size: 14px;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-  }
-
-  .navbar li {
-    float: none;
-    width: 100%;
-  }
-
-  .hero img {
-    border-radius: 50%;
-    height: 40%;
-    width: 40%;
-    margin: 0 auto;
-    display: flex;
-  }
-
-  .hero p {
-    font-size: 12px;
+    display: none !important; /* Hide the large menu on small screens */
   }
 }
 
 /* Styles for medium and large screens */
-@media screen and (min-width: 431px) {
+@media screen and (min-width: 426px) {
   .dropdown {
     display: none;
   }

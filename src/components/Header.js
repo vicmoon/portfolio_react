@@ -1,9 +1,15 @@
-import React from 'react';
+import {React, useState} from 'react';
 import { NavLink } from 'react-router-dom';
 // import ThemeToggle from './ThemeToogle';
 
 
 function Header() {
+  const [activeLink, setActiveLink] = useState('');
+  const handleNavLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
+
   return (
     <>
       <nav className="navbar">
@@ -14,9 +20,7 @@ function Header() {
             <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
               Home
             </NavLink>
-          
-        
-          
+      
             <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
               About
             </NavLink>
@@ -37,9 +41,12 @@ function Header() {
             </NavLink>
           </div>
         </div>
-        <ul className="menu-large">
+      <ul className="menu-large">
         <li>
-        <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
+        <NavLink to="/home" 
+        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+              onClick={() => handleNavLinkClick('home')}
+         title="Home">
           Home
         </NavLink>
       </li>

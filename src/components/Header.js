@@ -7,38 +7,64 @@ function Header() {
   return (
     <>
       <nav className="navbar">
-       <input type="checkbox" class="toggle-menu"></input>
-       <div class="hamburger">
-
-      </div>
-        <ul class="menu">
-        <li>
+       <div className='dropdown'>
+        <button className="dropbtn">Menu</button>
+         <div className="dropdown-content">
+        
             <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
               Home
             </NavLink>
-          </li>
+          
         
-          <li>
+          
             <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
               About
             </NavLink>
-          </li>
-          <li>
+          
+          
             <NavLink to="/work" className="nav-item" activeClassName="active" title="Coding projects">
               Projects
             </NavLink>
-          </li>
-          <li>
+          
+          
             <NavLink to="/certifications" className="nav-item" activeClassName="active" title="Courses & Certifications">
               Certifications
             </NavLink>
-          </li>
-          <li>
+          
+          
             <NavLink to="/contact" className="nav-item" activeClassName="active" title="Contact me">
               Contact
             </NavLink>
-          </li>
-        </ul>
+          </div>
+        </div>
+        <ul className="menu-large">
+        <li>
+        <NavLink to="/home" className="nav-item" activeClassName="active" title="Home">
+          Home
+        </NavLink>
+      </li>
+      <li>
+         <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
+           About
+        </NavLink>
+      </li>
+      <li>
+      <NavLink to="/work" className="nav-item" activeClassName="active" title="Coding projects">
+              Projects
+            </NavLink>
+      </li>
+      <li>
+      <NavLink to="/certifications" className="nav-item" activeClassName="active" title="Courses & Certifications">
+              Certifications
+            </NavLink>
+      </li>
+      <li>
+      <NavLink to="/contact" className="nav-item" activeClassName="active" title="Contact me">
+              Contact
+            </NavLink>
+      </li>
+
+    </ul>
       </nav>
     </>
   );

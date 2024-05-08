@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
 import NoPage from '../src/pages/NoPage';
+import Certifications from './pages/Certifications';
 
 
 
@@ -19,6 +20,7 @@ function App() {
             <Route  path="/home" element= {<Home />} />
             <Route  path="/about" element= {<About />} />
             <Route  path="/work" element= {<Work />} />
+            <Route  path="/certifications" element= {<Certifications />} />
             <Route  path="/contact" element= {<Contact />} />
             <Route  path="*" element= {<NoPage />} />
             </Routes>

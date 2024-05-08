@@ -44,31 +44,43 @@ function Header() {
       <ul className="menu-large">
         <li>
         <NavLink to="/home" 
-        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+          className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
               onClick={() => handleNavLinkClick('home')}
-         title="Home">
+          title="Home">
           Home
         </NavLink>
       </li>
       <li>
-         <NavLink to="/about" className="nav-item" activeClassName="active" title="About me">
+         <NavLink to="/about" 
+        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+              onClick={() => handleNavLinkClick('home')} 
+         title="About me">
            About
         </NavLink>
       </li>
       <li>
-      <NavLink to="/work" className="nav-item" activeClassName="active" title="Coding projects">
-              Projects
-            </NavLink>
+      <NavLink to="/work" 
+        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+        onClick={() => handleNavLinkClick('home')}
+        title="Coding projects">
+            Projects
+        </NavLink>
       </li>
       <li>
-      <NavLink to="/certifications" className="nav-item" activeClassName="active" title="Courses & Certifications">
+      <NavLink to="/certifications" 
+        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+        onClick={() => handleNavLinkClick('home')}
+        title="Courses & Certifications">
               Certifications
-            </NavLink>
+        </NavLink>
       </li>
       <li>
-      <NavLink to="/contact" className="nav-item" activeClassName="active" title="Contact me">
+      <NavLink to="/contact" 
+        className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}
+        onClick={() => handleNavLinkClick('home')}
+        title="Contact me">
               Contact
-            </NavLink>
+        </NavLink>
       </li>
 
     </ul>

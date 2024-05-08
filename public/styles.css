@@ -397,15 +397,22 @@ body{
 
 .nav-item.active {
   /* Add your active link styles here */
-  background-color: #73c2fc; /* Example background color */
-  color: white; /* Example text color */
-  /* Add any other styles you want to apply to active links */
+  background-color: #FFB38E; /* Example background color */
+  color: black; 
+  border-radius: 20px;
+  
 }
 
 /* Optional: Hover effect for active links */
 .nav-item.active:hover {
   /* Add your hover styles for active links */
-  background-color: #4da9e5; /* Example hover background color */
+  background-color: #FC4100;
+  border: 1px solid black; /* Example hover background color */
+}
+
+button{
+  border-radius: 30px;
+  background-color: #5AB2FF;
 }
 
 /* Styles for small screens */
@@ -416,9 +423,9 @@ body{
   }
 
   .dropbtn {
-    background-color: #B08BBB;
-    color: white;
-    padding: 16px;
+    background-color: #FFB38E;
+    color: black;
+    padding: 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -460,5 +467,6 @@ body{
 
   .menu-large {
     display: block;
+    
   }
 }

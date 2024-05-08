@@ -25,6 +25,11 @@ function Header() {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/certifications" className="nav-item" activeClassName="active" title="Courses & Certifications">
+              Certifications
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/contact" className="nav-item" activeClassName="active" title="Contact me">
               Contact
             </NavLink>

@@ -13,7 +13,7 @@ const Certifications = () => {
             <a href= "https://www.udemy.com/certificate/UC-e2ceb578-0101-4c81-95d8-fdf81aa4356b/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" rel="noreferrer"target="_blank">[The Complete JavaScript Course 2024]</a> 
          </div>
           </>
-          <Footer />
+        <Footer />
 
       </>
   

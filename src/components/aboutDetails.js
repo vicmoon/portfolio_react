@@ -24,7 +24,7 @@ const aboutDetails = [
     {
         id: 4,
         title: "Coding",
-        description: "I am a junior frontend developer. I have experience with HTML, CSS, JavaScript, React, Bootstrap, Git and GitHub, Node.js, Express, Mongoose, ServiceNow (developer & administration).  I am currently improving my React and JavaScript skills and I am interested in developer opportunities."
+        description: "I am a junior full-stack developer. I have experience with HTML, CSS, JavaScript, React, Bootstrap, Git and GitHub, Node.js, Express, Mongoose, ServiceNow.  I am currently improving my React and JavaScript skills and I am interested in developer opportunities."
     }
 
 

@@ -8,6 +8,7 @@ const Certifications = () => {
         <Header/>
           <>
           <div id="certifications">
+            <a href= "https://drive.google.com/file/d/1tS6l1z0xnAfBhhtdp4sp-6Ky03G9XORM/view" rel="noreferrer" target="_blank">[ServiceNow Certified System Administrator]</a>
             <a href= "https://www.codecademy.com/profiles/victoria_moon/certificates/5ddbff3dd1bd3b001397ae9f" rel="noreferrer" target="_blank">[Video Games with Phaser.js]</a>
             <a href= "https://www.codecademy.com/profiles/victoria_moon/certificates/705dcb15de0da4dd9d9fc4f3274b430e " rel="noreferrer" target="_blank">[JavaScript Course]</a>
             <a href= "https://www.udemy.com/certificate/UC-e2ceb578-0101-4c81-95d8-fdf81aa4356b/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" rel="noreferrer"target="_blank">[Complete JavaScript 2024]</a>

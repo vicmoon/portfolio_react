@@ -142,8 +142,13 @@ body{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .hero h1 {
   margin-bottom: 30px;
+}
+
+.menu-large li{
+  font-size: 25px;
 }
 
 /* .hero img{
@@ -154,6 +159,7 @@ body{
 
 .hero__description{
   margin-top: 30px;
+  font-size: 20px;
 }
 
 .about{
@@ -464,6 +470,15 @@ button{
     
   }
 
+  .hero img{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+  
+  }
+
   
   
 }
@@ -484,8 +499,8 @@ button{
 
   .hero img{
     border-radius: 50%;
-    height: 50%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
     margin: 0 auto;
     display: flex;
   

@@ -112,7 +112,6 @@ body{
   width: 20%;
   margin: 0 auto;
   display: flex;
-  
 
 }
 
@@ -154,7 +153,7 @@ body{
 } */
 
 .hero__description{
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .about{
@@ -482,4 +481,14 @@ button{
     cursor: pointer;
     font-size: 18px;
   }
+
+  .hero img{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+  
+  }
+  
 }

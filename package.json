@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Link to the site : https://victoriamunteanuportfolio.net/",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

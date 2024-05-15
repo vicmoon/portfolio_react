@@ -456,6 +456,15 @@ button{
   .menu-large {
     display: none !important; /* Hide the large menu on small screens */
   }
+
+  .hero img{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+  
+  }
 }
 
 /* Styles for medium and large screens */
@@ -477,9 +486,6 @@ button{
       display: flex;
     
     } */
-
-  
-  
 }
 
 @media screen and (min-width: 350px){
@@ -503,6 +509,11 @@ button{
     margin: 0 auto;
     display: flex;
   
+  }
+
+  .hero p{
+    align-items: center;
+
   }
   
 }

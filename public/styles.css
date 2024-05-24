@@ -22,7 +22,7 @@ body{
 }
 
 .navbar {
-  background-color: var(--night-color);
+  
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,6 +35,11 @@ body{
   list-style: none;
   display: flex;
   font-size: 18px;
+}
+
+.navbar li:hover{
+  background-color: #FC4100;
+  border-radius: 20px;
 }
 
 .navbar li {
@@ -50,11 +55,11 @@ body{
   text-decoration: none;
 }
 
-.nav-item a:hover {
+/* .nav-item a:hover {
   transform: scale(1);
   color: var(--secondary-color);
 
-}
+} */
 
 .navbar .active{
  color: var(--primary-color)

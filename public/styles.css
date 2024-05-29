@@ -1,14 +1,11 @@
-
-body{
-    margin: 0 auto;
-    padding: 0;
-    background-color: #e5decf;
-    font-family: "Share Tech Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-  
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #e5decf;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
-
 
 .work {
   display: flex;
@@ -17,16 +14,13 @@ body{
   align-items: center;
   margin-top: 100px;
   gap: 10px;
- 
 }
 
 .navbar {
-  
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 .navbar ul {
   padding: 0;
@@ -36,15 +30,9 @@ body{
   font-size: 18px;
 }
 
-.navbar li:hover{
-  background-color: #FC4100;
-  border-radius: 20px;
-}
-
 .navbar li {
   float: center;
   padding: 10px;
-
 }
 
 .navbar a {
@@ -54,16 +42,17 @@ body{
   text-decoration: none;
 }
 
-/* .nav-item a:hover {
-  transform: scale(1);
-  color: var(--secondary-color);
-
-} */
-
-.navbar .active{
- color: var(--primary-color)
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
+.filter .select {
+  border-radius: 20px;
+  background-color: #fc4100;
+}
 /* Styles for small screens */
 .dropdown {
   position: relative;
@@ -71,7 +60,7 @@ body{
 }
 
 .dropbtn {
-  background-color: #B08BBB;
+  background-color: #b08bbb;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -95,13 +84,12 @@ body{
 }
 
 .dropdown-content a:hover {
-  background-color: #00FF9C;
+  background-color: #00ff9c;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 .hero {
   display: flex;
@@ -110,15 +98,13 @@ body{
   max-height: 90%;
 }
 
-.hero img{
+.hero img {
   border-radius: 50%;
   height: 20%;
   width: 20%;
   margin: 0 auto;
   display: flex;
-
 }
-
 
 #contact {
   display: flex;
@@ -127,18 +113,18 @@ body{
   align-items: center;
   gap: 10px;
   padding: 50px;
-  margin-top:150px;
+  margin-top: 150px;
   transition: 0.5s;
   cursor: pointer;
   font-size: 25px;
 }
 
-#certifications{
-  margin-top:150px;
+#certifications {
+  margin-top: 150px;
   font-size: 25px;
 }
 
-.hero{
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,7 +137,7 @@ body{
   margin-bottom: 30px;
 }
 
-.menu-large li{
+.menu-large li {
   font-size: 20px;
 }
 
@@ -161,32 +147,27 @@ body{
   display: flex;
 } */
 
-.hero__description{
+.hero__description {
   margin-top: 30px;
   font-size: 20px;
 }
 
-.about{
+.about {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
-  
 }
 
-
 .card {
-  
   perspective: 1000px;
   position: relative;
   cursor: pointer; /* Change the cursor to indicate interactivity */
-  
 }
 
 .card-inner {
-  
   transition: transform 0.5s; /* Add a smooth transition for the flip effect */
   transform-style: preserve-3d;
 }
@@ -194,7 +175,6 @@ body{
 .card:hover .card-inner {
   transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
 }
-
 
 .card-front,
 .card-back {
@@ -205,12 +185,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .card-back {
   /* Back content (text) styles */
-  background-color:  #FC4100;
+  background-color: #b08bbb;
   transform: rotateY(180deg); /* Initially, hide the back side of the card */
 }
 
@@ -230,15 +209,14 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-gap:10px;
+  grid-gap: 10px;
   margin-top: 100px;
   margin-bottom: 100px;
   justify-content: center;
 }
 
-.about-section p{
+.about-section p {
   margin-bottom: 10px;
-
 }
 .btn-info {
   border-radius: 10px;
@@ -252,14 +230,14 @@ body{
   flex-direction: row;
   justify-content: center;
   margin-top: 100px;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
-.footer :hover{
+.footer :hover {
   color: var(--secondary-color);
   transform: scale(1.2);
 }
- 
+
 .card {
   width: 250px; /* Set the width of your card */
   height: 250px; /* Set the height of your card */
@@ -279,12 +257,11 @@ body{
   transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
 }
 
-.card-front-name h1{
+.card-front-name h1 {
   color: #0d1b32;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-
 }
 .card-front-name,
 .card-back-name {
@@ -309,46 +286,41 @@ body{
   color: black;
 }
 
- .main-page {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
-  }
+.main-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .card img {
   width: 78%;
   height: 78%;
-  
 }
 
-  .btn-info {
-    margin-bottom: 10px;
-  }
-  .about-grid {
-    display: flex;
-    flex-direction: column;
-  }
-  .about-grid p {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-   text-align: justify;
-
-  }
-  
-  .about-grid h2 {
-    text-align: center;
-  }
-
- 
-.about-section h1, p{
+.btn-info {
+  margin-bottom: 10px;
+}
+.about-grid {
+  display: flex;
+  flex-direction: column;
+}
+.about-grid p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
   text-align: justify;
 }
 
+.about-grid h2 {
+  text-align: center;
+}
 
-  
+.about-section h1,
+p {
+  text-align: justify;
+}
+
 .card {
   width: 250px; /* Set the width of your card */
   height: 250px; /* Set the height of your card */
@@ -368,7 +340,7 @@ body{
   transform: rotateY(180deg); /* Rotate the card 180 degrees on hover */
 }
 
-.card-front-name h1{
+.card-front-name h1 {
   color: #0d1b32;
   font-size: 18px;
   font-weight: bold;
@@ -397,25 +369,23 @@ body{
   color: black;
 }
 
-
 .nav-item.active {
   /* Add your active link styles here */
-  background-color: #FFB38E; /* Example background color */
-  color: black; 
+  background-color: #b08bbb; /* Example background color */
+  color: black;
   border-radius: 20px;
-  
 }
 
 /* Optional: Hover effect for active links */
 .nav-item.active:hover {
   /* Add your hover styles for active links */
-  background-color: #FC4100;
+  background-color: #fc4100;
   border: 1px solid black; /* Example hover background color */
 }
 
-button{
+button {
   border-radius: 30px;
-  background-color: #5AB2FF;
+  background-color: #5ab2ff;
 }
 
 /* Styles for small screens */
@@ -426,7 +396,7 @@ button{
   }
 
   .dropbtn {
-    background-color: #FFB38E;
+    background-color: #ffb38e;
     color: black;
     padding: 20px;
     font-size: 16px;
@@ -450,7 +420,7 @@ button{
   }
 
   .dropdown-content a:hover {
-    background-color: #00FF9C;
+    background-color: #00ff9c;
   }
 
   .dropdown:hover .dropdown-content {
@@ -461,13 +431,12 @@ button{
     display: none !important; /* Hide the large menu on small screens */
   }
 
-  .hero img{
+  .hero img {
     border-radius: 50%;
     height: 30%;
     width: 30%;
     margin: 0 auto;
     display: flex;
-  
   }
 }
 
@@ -479,10 +448,9 @@ button{
 
   .menu-large {
     display: block;
-    
   }
 
-    /* .hero img{
+  /* .hero img{
       border-radius: 50%;
       height: 30%;
       width: 30%;
@@ -492,12 +460,11 @@ button{
     } */
 }
 
-@media screen and (min-width: 350px){
-
-  #certifications{
+@media screen and (min-width: 350px) {
+  #certifications {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 50px;
@@ -506,18 +473,15 @@ button{
     font-size: 18px;
   }
 
-  .hero img{
+  .hero img {
     border-radius: 50%;
     height: 23%;
     width: 23%;
     margin: 0 auto;
     display: flex;
-  
   }
 
-  .hero p{
+  .hero p {
     align-items: center;
-
   }
-  
 }

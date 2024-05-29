@@ -51,6 +51,7 @@ body {
 
 .filter .select {
   border-radius: 20px;
+  padding: 10px;
   background-color: #fc4100;
 }
 /* Styles for small screens */

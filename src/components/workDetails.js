@@ -186,7 +186,7 @@ const details = [
   {
     id: -3,
     name: "Simple Landing Page",
-    image: "images/reading.JPG",
+    image: "images/landing.jpg",
     link: "https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/874/197/original/Finalproject.html?1653155333",
     language: "HTML, CSS",
   },

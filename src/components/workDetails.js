@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 25,
+    name: "Movie Finder",
+    image: "images/movie_time.png",
+    link: "https://movie-finder-api-ac1e36689a02.herokuapp.com/",
+    language: "JavaScript, React, API",
+  },
+  {
     id: 24,
     name: "Books Finder",
     image: "images/booksCover.png",

@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 26,
+    name: "What's for dinner?",
+    image: "images/recipy.png",
+    link: "https://recipy-finder-api-871e7800ae87.herokuapp.com/",
+    language: "JavaScript, React, API",
+  },
+  {
     id: 25,
     name: "Movie Finder",
     image: "images/movie_time.png",

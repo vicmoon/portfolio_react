@@ -97,6 +97,9 @@ body {
   align-items: center;
   margin: 100px 0;
 }
+.contact {
+  text-align: center;
+}
 
 .hero img {
   border-radius: 50%;

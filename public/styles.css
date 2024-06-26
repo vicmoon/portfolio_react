@@ -112,6 +112,9 @@ body {
   align-items: center;
   margin: 20px 0;
 }
+.contact {
+  text-align: center;
+}
 
 .hero img {
   border-radius: 50%;

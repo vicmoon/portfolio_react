@@ -1,25 +1,27 @@
 import Footer from "../components/Footer";
-import Header  from "../components/Header";
+import Header from "../components/Header";
 
 const Contact = () => {
-
-    return (
+  return (
+    <>
+      <Header />
       <>
-        <Header/>
-          <>
-          <div id="contact">
-            <a href= "https://www.linkedin.com/in/victoriamunteanu/" rel="noreferrer" target="_blank">[LinkedIn]</a>
-            <a href= "https://github.com/vicmoon" rel="noreferrer"target="_blank">[ GitHub  ]</a> 
-         </div>
-          </>
-          <Footer />
-
+        <div id="contact">
+          <a
+            href="https://www.linkedin.com/in/victoriamunteanu/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [LinkedIn]
+          </a>
+          <a href="https://github.com/vicmoon" rel="noreferrer" target="_blank">
+            [ GitHub ]
+          </a>
+        </div>
       </>
-  
-    );
-
-
-}
-
+      <Footer />
+    </>
+  );
+};
 
 export default Contact;

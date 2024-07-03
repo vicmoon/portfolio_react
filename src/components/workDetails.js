@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 29,
+    name: "Rotating menu and expanding search ",
+    image: "images/rotatingmenu.png",
+    link: "https://rotatingnavigationandexpandingmenu.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 28,
     name: "Progress bar ",
     image: "images/progressbar.png",

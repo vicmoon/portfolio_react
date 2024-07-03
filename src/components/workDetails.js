@@ -1,5 +1,19 @@
 const details = [
   {
+    id: 28,
+    name: "Progress bar ",
+    image: "images/progressbar.png",
+    link: "https://progressdemo.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
+    id: 27,
+    name: "Expanding cards",
+    image: "images/expanding.png",
+    link: "https://expanding-cards-portfolio.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 26,
     name: "What's for dinner?",
     image: "images/recipy.png",

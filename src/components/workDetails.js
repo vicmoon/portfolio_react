@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 30,
+    name: "Blurry loading",
+    image: "images/blurry.png",
+    link: "https://curious-longma-010ea1.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 29,
     name: "Rotating menu and expanding search ",
     image: "images/rotatingmenu.png",

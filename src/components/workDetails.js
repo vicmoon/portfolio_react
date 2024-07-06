@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 31,
+    name: "Split Landing Page",
+    image: "images/splitting.png",
+    link: "https://split-landing-page-travel.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 30,
     name: "Blurry loading",
     image: "images/blurry.png",

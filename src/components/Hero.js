@@ -15,7 +15,7 @@ function Hero() {
         />
       </div>
       <div className="hero__description">
-        <p>Self-taught full-stack developer</p>
+        <p>Self-taught junior full-stack developer</p>
       </div>
       <Footer />
     </div>

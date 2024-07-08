@@ -1,7 +1,14 @@
 const details = [
   {
+    id: 32,
+    name: "Wave effect",
+    image: "images/wave.png",
+    link: "https://waveffect.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 31,
-    name: "Split Landing Page",
+    name: "Split landing page",
     image: "images/splitting.png",
     link: "https://split-landing-page-travel.netlify.app/",
     language: "JavaScript, CSS, HTML",

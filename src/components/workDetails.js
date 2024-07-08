@@ -179,13 +179,13 @@ const details = [
   {
     id: 7,
     name: "🏋️‍♀️Javascript- exercises",
-    image: "images/javascript.JPG",
+    image: "images/journey.png",
     link: "https://astonishing-pasca-5a36aa.netlify.app/",
     language: "CSS, HTML, Express.js, Node.js",
   },
   {
     id: 6,
-    name: "🪄Creative Project",
+    name: "🪄The Journey Within",
     image: "images/journey1.jpg",
     link: "https://www.victoriamoonteanu.com/",
     language: "CSS, HTML, Express.js, Node.js",

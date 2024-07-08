@@ -179,7 +179,7 @@ const details = [
   {
     id: 7,
     name: "🏋️‍♀️Javascript- exercises",
-    image: "images/journey.png",
+    image: "images/javascript.png",
     link: "https://astonishing-pasca-5a36aa.netlify.app/",
     language: "CSS, HTML, Express.js, Node.js",
   },

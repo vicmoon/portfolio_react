@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 33,
+    name: "Dad Jokes 😆",
+    image: "images/joke.png",
+    link: "https://sillydadjokes.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 32,
     name: "Wave effect",
     image: "images/wave.png",
@@ -186,7 +193,7 @@ const details = [
   {
     id: 6,
     name: "🪄The Journey Within",
-    image: "images/journey1.jpg",
+    image: "images/journey.png",
     link: "https://www.victoriamoonteanu.com/",
     language: "CSS, HTML, Express.js, Node.js",
   },

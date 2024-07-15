@@ -1,5 +1,19 @@
 const details = [
   {
+    id: 35,
+    name: "FAQ Cards Toggle",
+    image: "images/faq.png",
+    link: "https://servicenow-faqs.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
+    id: 34,
+    name: "Event Key Codes",
+    image: "images/keycodes.png",
+    link: "https://eventkeycodesok.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 33,
     name: "Dad Jokes 😆",
     image: "images/joke.png",

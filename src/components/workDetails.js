@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 36,
+    name: "Random Choice Picker",
+    image: "images/choices.png",
+    link: "https://randomchoices.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 35,
     name: "FAQ Cards Toggle",
     image: "images/faq.png",

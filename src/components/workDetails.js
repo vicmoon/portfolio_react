@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 37,
+    name: "Animated Navigation",
+    image: "images/navigation.png",
+    link: "https://animated-navigation-large.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 36,
     name: "Random Choice Picker",
     image: "images/choices.png",

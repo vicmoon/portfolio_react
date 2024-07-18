@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 38,
+    name: "Incrementing Counter",
+    image: "images/counter.png",
+    link: "https://incrementing-counter-fake.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 37,
     name: "Animated Navigation",
     image: "images/navigation.png",

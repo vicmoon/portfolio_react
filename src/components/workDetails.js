@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 39,
+    name: "Drink Water🥛🥛🥛",
+    image: "images/water.png",
+    link: "https://howmuchwater.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 38,
     name: "Incrementing Counter",
     image: "images/counter.png",

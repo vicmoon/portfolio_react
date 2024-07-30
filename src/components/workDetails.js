@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 41,
+    name: "Clock⏰⌛",
+    image: "images/clock.png",
+    link: "https://ticktick-clock.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+
+  {
     id: 40,
     name: "Image Slider",
     image: "images/slider.png",

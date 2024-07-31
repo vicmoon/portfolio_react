@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 42,
+    name: "Ripple effect",
+    image: "images/ripple.png",
+    link: "https://ticktick-clock.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 41,
     name: "Clock⏰⌛",
     image: "images/clock.png",

@@ -3,7 +3,7 @@ const details = [
     id: 42,
     name: "Ripple effect",
     image: "images/ripple.png",
-    link: "https://ticktick-clock.netlify.app/",
+    link: "https://rippleeffectonbutton.netlify.app/",
     language: "JavaScript, CSS, HTML",
   },
   {

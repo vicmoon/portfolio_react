@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 43,
+    name: "Drag N Drop",
+    image: "images/drag.png",
+    link: "https://draganddropbasic.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 42,
     name: "Ripple effect",
     image: "images/ripple.png",

@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 44,
+    name: "Simple CSS Loader",
+    image: "images/loader.png",
+    link: "https://simpleloader.netlify.app/",
+    language: "CSS, HTML",
+  },
+  {
     id: 43,
     name: "Drag N Drop",
     image: "images/drag.png",

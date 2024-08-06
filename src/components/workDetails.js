@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 46,
+    name: "Cards-Placeholder",
+    image: "images/placeholder.png",
+    link: "https://cards-placeholder.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 45,
     name: "Simple Drawing Pad",
     image: "images/drawing.png",

@@ -1,6 +1,13 @@
 const details = [
   {
     id: 46,
+    name: "Sticky Nav Demo",
+    image: "images/sticky.png",
+    link: "https://stickynavdemo.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
+    id: 46,
     name: "Cards-Placeholder",
     image: "images/placeholder.png",
     link: "https://cards-placeholder.netlify.app/",

@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 46,
+    name: "Vertical Slider",
+    image: "images/verticalSlider.png",
+    link: "https://simpleverticalslider.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 45,
     name: "Greenish World",
     image: "images/greenish.png",

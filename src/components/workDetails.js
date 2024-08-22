@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 47,
+    name: "Disappearing Notifications",
+    image: "images/toastMessages.png",
+    link: "https://disappearingnotifications.netlify.app/",
+    language: "JavaScript, CSS, HTML",
+  },
+  {
     id: 46,
     name: "Vertical Slider",
     image: "images/verticalSlider.png",

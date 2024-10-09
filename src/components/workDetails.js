@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 48,
+    name: "My Blog - Bits and Scribbles",
+    image: "images/site.jpg",
+    link: "https://disappearingnotifications.netlify.app/",
+    language: "Node js, Express, MongoDb, EJS",
+  },
+  {
     id: 47,
     name: "Disappearing Notifications",
     image: "images/toastMessages.png",

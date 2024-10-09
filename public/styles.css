@@ -260,6 +260,7 @@ button {
 }
 
 /* Styles for small screens */
+
 @media screen and (max-width: 425px) {
   .dropbtn {
     background-color: #ffb38e;

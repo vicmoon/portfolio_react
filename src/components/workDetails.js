@@ -3,7 +3,7 @@ const details = [
     id: 48,
     name: "My Blog - Bits and Scribbles",
     image: "images/site.jpg",
-    link: "https://disappearingnotifications.netlify.app/",
+    link: "https://www.bitsandscribbles.com/",
     language: "Node js, Express, MongoDb, EJS",
   },
   {

@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Certifications = () => {
   return (
@@ -7,6 +7,13 @@ const Certifications = () => {
       <Header />
       <>
         <div id="certifications">
+          <a
+            href="https://drive.google.com/file/d/1Jf8FRrPbFryznJBkcj4dkZSmaEa_8PSG/view"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ServiceNow CIS CSM]
+          </a>
           <a
             href="https://www.codecademy.com/profiles/victoria_moon/certificates/28ccb695c353465a8785a036ad32d3b9"
             rel="noreferrer"

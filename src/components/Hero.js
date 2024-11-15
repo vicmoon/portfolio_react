@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+import Footer from './Footer';
 
 function Hero() {
   return (
@@ -17,7 +17,6 @@ function Hero() {
       <div className="hero__description">
         <p>Self-taught junior full-stack developer</p>
       </div>
-      <Footer />
     </div>
   );
 }

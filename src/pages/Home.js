@@ -1,17 +1,17 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-
-
+import Footer from '../components/Footer';
 
 const Home = () => {
-
   return (
-    <div>
+    <div className="home-container">
       <Header />
-      <Hero />
+      <div className="hero-container">
+        <Hero />
+      </div>
+      <Footer />
     </div>
   );
 };
-
 
 export default Home;

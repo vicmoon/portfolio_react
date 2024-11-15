@@ -1,11 +1,38 @@
-body {
-  margin: 0 auto;
+* {
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%; /* Ensure the full height of the viewport is used */
+}
+
+/* Home page container */
+.home-container {
+  display: flex;
+  flex-direction: column; /* Stack header, hero, and footer vertically */
+  min-height: 100vh; /* Make the container cover the entire viewport */
+}
+
+/* Hero container */
+.hero-container {
+  flex: 1; /* Allow the hero section to grow and take up available space */
+  display: flex;
+  justify-content: center; /* Center hero horizontally */
+  align-items: center; /* Center hero vertically */
+  text-align: center; /* Optional: Center the text alignment */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
   background-color: #e5decf;
   font-family: 'Share Tech Mono', monospace;
-  font-weight: 400;
-  font-style: normal;
-  height: 100vh;
 }
 
 .work {
@@ -108,12 +135,14 @@ body {
 }
 
 .hero {
+  flex: 1; /* Allow the hero to grow and fill the available space */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50% 0;
+  margin-top: 100px;
 }
+
 .contact {
   text-align: center;
 }
@@ -233,20 +262,17 @@ body {
   border-color: var(--forth-color);
 }
 
+/* Footer styles */
 .footer {
+  height: 60px; /* Fixed footer height */
+  background-color: #f0f0f0; /* Background color for the footer */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
-  height: 60px; /* Define a fixed height for the footer */
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  color: #333; /* Footer text color */
 }
-
 .footer:hover {
-  color: var(--secondary-color);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .nav-item.active {

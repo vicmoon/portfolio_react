@@ -45,7 +45,7 @@ body {
 }
 
 #contact {
-  margin-top: 200px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,6 +63,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #f0f0f0;
 }
 
 .navbar ul {
@@ -331,6 +332,7 @@ button {
 
 @media screen and (min-width: 350px) {
   #certifications {
+    height: 100vh;
     margin-top: 50px;
     display: flex;
     flex-direction: column;

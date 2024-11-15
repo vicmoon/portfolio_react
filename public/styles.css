@@ -2,9 +2,10 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: #e5decf;
-  font-family: "Share Tech Mono", monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 400;
   font-style: normal;
+  height: 100vh;
 }
 
 .work {
@@ -65,7 +66,7 @@ body {
 .filter .select {
   border-radius: 20px;
   padding: 10px;
-  background-color: #fc4100;
+  background-color: #f0c1e1;
 }
 
 .dropdown {
@@ -74,7 +75,7 @@ body {
 }
 
 .dropbtn {
-  background-color: #b08bbb;
+  background-color: #fff7d1;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -85,9 +86,10 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f0c1e1;
   min-width: 160px;
   z-index: 1;
+  border-radius: 20px;
 }
 
 .dropdown-content a {
@@ -110,7 +112,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 50% 0;
 }
 .contact {
   text-align: center;
@@ -127,6 +129,7 @@ body {
 
 .hero h1 {
   margin-bottom: 30px;
+  color: #aa5486;
 }
 
 .hero__description {
@@ -232,10 +235,13 @@ body {
 
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  align-items: center;
   color: var(--primary-color);
+  height: 60px; /* Define a fixed height for the footer */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer:hover {
@@ -263,9 +269,10 @@ button {
 
 @media screen and (max-width: 425px) {
   .dropbtn {
-    background-color: #ffb38e;
+    background-color: #fff7d1;
     color: black;
-    padding: 20px;
+    padding: 15px;
+    margin-top: 10px;
     font-size: 16px;
     border: none;
   }
@@ -319,7 +326,7 @@ button {
   }
 
   .hero__description p {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 
@@ -334,5 +341,8 @@ button {
     transition: 0.5s;
     cursor: pointer;
     font-size: 15px;
+  }
+  .hero__description p {
+    font-size: 12px;
   }
 }

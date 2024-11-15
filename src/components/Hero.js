@@ -1,5 +1,3 @@
-import Footer from './Footer';
-
 function Hero() {
   return (
     <div className="hero">

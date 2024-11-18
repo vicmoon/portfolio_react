@@ -251,7 +251,7 @@ const details = [
     id: 14,
     name: '🕹️Games board',
     image: 'images/games_board.PNG',
-    link: 'https://golden-gnome-e8d793.netlify.app/',
+    link: 'https://mygamesboard.netlify.app/',
     language: 'DOM manipulation, JavaScript, CSS',
   },
   {

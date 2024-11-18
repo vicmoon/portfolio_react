@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
 function Filter({ selectedLanguage, onLanguageChange }) {
   const languages = [
-    "All",
-    "JavaScript",
-    "CSS",
-    "HTML",
-    "Phaser",
-    "API",
-    "React",
-    "DOM",
+    'All',
+    'JavaScript',
+    'CSS',
+    'HTML',
+    'Phaser',
+    'API',
+    'React',
+    'DOM',
   ]; // Add more languages as needed
 
   return (
     <div className="filter">
-      <label htmlFor="language-select">Filter: </label>
+      <label htmlFor="language-select"></label>
       <select
         className="select"
         id="language-select"

@@ -1,0 +1,66 @@
+.card-hero {
+  perspective: 1000px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center align content */
+  width: 200px; /* Equal width and height for circular shape */
+  height: 200px;
+  gap: 10px;
+  background-color: #eaedee;
+  border-radius: 50%; /* Makes the card circular */
+  box-shadow: 2px 4px 5px rgba(216, 139, 139, 0.5);
+  overflow: hidden; /* Ensures content fits inside the circular shape */
+}
+
+.card-inner-hero {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.card-hero:hover .card-inner-hero {
+  transform: rotateY(180deg);
+}
+
+.card-front-hero,
+.card-back-hero {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Keeps both sides circular */
+}
+
+.card-front-hero {
+  background: radial-gradient(circle, #d6c5a1, #c3a97b);
+}
+
+.card-back-hero {
+  background-color: #fbf8ef;
+  transform: rotateY(180deg);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-back-hero p {
+  color: black;
+  margin: 0;
+  font-size: 14px;
+}
+
+.card-front-hero .round-image {
+  width: 90%; /* Adjust to fit well within the circular card */
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #c3a97b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.6);
+}

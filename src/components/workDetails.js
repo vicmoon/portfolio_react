@@ -303,13 +303,13 @@ const details = [
     link: 'https://astonishing-pasca-5a36aa.netlify.app/',
     language: 'CSS, HTML, Express.js, Node.js',
   },
-  {
-    id: 6,
-    name: '🪄The Journey Within',
-    image: 'images/journey.png',
-    link: 'https://www.victoriamoonteanu.com/',
-    language: 'CSS, HTML, Express.js, Node.js',
-  },
+  // {
+  //   id: 6,
+  //   name: '🪄The Journey Within',
+  //   image: 'images/journey.png',
+  //   link: 'https://www.victoriamoonteanu.com/',
+  //   language: 'CSS, HTML, Express.js, Node.js',
+  // },
   {
     id: 5,
     name: 'Site Template',

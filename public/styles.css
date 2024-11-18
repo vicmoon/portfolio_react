@@ -264,6 +264,7 @@ body {
 }
 
 /* Footer styles */
+
 .footer {
   height: 60px; /* Fixed footer height */
   background-color: #f0f0f0; /* Background color for the footer */
@@ -271,9 +272,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #333; /* Footer text color */
-}
-.footer:hover {
-  transform: scale(1.1);
 }
 
 .nav-item.active {

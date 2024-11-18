@@ -37,7 +37,7 @@ body {
 
 .work {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;

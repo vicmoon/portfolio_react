@@ -7,6 +7,7 @@ function Filter({ selectedLanguage, onLanguageChange }) {
     'CSS',
     'HTML',
     'Phaser',
+    'Python',
     'API',
     'React',
     'DOM',

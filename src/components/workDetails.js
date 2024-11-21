@@ -1,6 +1,13 @@
 const details = [
   {
     id: 49,
+    name: 'Blackjack',
+    image: 'images/blackjack.png',
+    link: 'https://pythonblackjack-production.up.railway.app/',
+    language: 'Python',
+  },
+  {
+    id: 49,
     name: 'Hangman',
     image: 'images/hangman.png',
     link: 'https://victoria.pythonanywhere.com/',

@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center; /* Center align content */
-  width: 200px; /* Equal width and height for circular shape */
-  height: 200px;
+  width: 350px; /* Equal width and height for circular shape */
+  height: 350px;
   gap: 10px;
   background-color: #eaedee;
   border-radius: 50%; /* Makes the card circular */
@@ -63,4 +63,11 @@
   border: 6px solid #c3a97b;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
     inset 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 425px) {
+  .card-hero {
+    width: 250px; /* Equal width and height for circular shape */
+    height: 250px;
+  }
 }

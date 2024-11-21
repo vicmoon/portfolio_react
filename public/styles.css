@@ -132,26 +132,8 @@ body {
   display: block;
 }
 
-.hero {
-  flex: 1; /* Allow the hero to grow and fill the available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-
 .contact {
   text-align: center;
-}
-
-.hero img {
-  border-radius: 50%;
-  height: 10%;
-  width: 10%;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
 }
 
 .about {

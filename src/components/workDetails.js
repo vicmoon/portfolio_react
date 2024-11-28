@@ -1,6 +1,6 @@
 const details = [
   {
-    id: 49,
+    id: 50,
     name: 'Blackjack',
     image: 'images/blackjack.png',
     link: 'https://pythonblackjack-production.up.railway.app/',

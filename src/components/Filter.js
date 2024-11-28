@@ -10,7 +10,6 @@ function Filter({ selectedLanguage, onLanguageChange }) {
     'Python',
     'API',
     'React',
-    'DOM',
   ]; // Add more languages as needed
 
   return (

@@ -1,5 +1,12 @@
 const details = [
   {
+    id: 51,
+    name: 'Quiz',
+    image: 'images/quiz.png',
+    link: 'https://pythonquizclasses-production.up.railway.app/',
+    language: 'Python',
+  },
+  {
     id: 50,
     name: 'Blackjack',
     image: 'images/blackjack.png',

@@ -237,7 +237,6 @@ body {
 
 .footer {
   height: 60px; /* Fixed footer height */
-  background-color: #f0f0f0; /* Background color for the footer */
   display: flex;
   justify-content: center;
   align-items: center;

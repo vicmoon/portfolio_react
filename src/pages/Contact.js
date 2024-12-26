@@ -8,6 +8,13 @@ const Contact = () => {
       <>
         <div id="contact">
           <a
+            href="https://www.bitsandscribbles.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ Blog ]
+          </a>
+          <a
             href="https://www.linkedin.com/in/victoriamunteanu/"
             rel="noreferrer"
             target="_blank"
@@ -16,13 +23,6 @@ const Contact = () => {
           </a>
           <a href="https://github.com/vicmoon" rel="noreferrer" target="_blank">
             [ GitHub ]
-          </a>
-          <a
-            href="https://www.bitsandscribbles.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            [ Blog ]
           </a>
         </div>
       </>

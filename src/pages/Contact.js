@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Contact = () => {
   return (
@@ -16,6 +16,13 @@ const Contact = () => {
           </a>
           <a href="https://github.com/vicmoon" rel="noreferrer" target="_blank">
             [ GitHub ]
+          </a>
+          <a
+            href="https://www.bitsandscribbles.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ Blog ]
           </a>
         </div>
       </>

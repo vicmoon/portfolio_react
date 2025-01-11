@@ -17,7 +17,7 @@ function Hero() {
           </div>
           {/* Back Side */}
           <div className="card-back-hero">
-            <p>Hi there! I'm a self-taught full-stack developer 👩🏼‍💻</p>
+            <p>Hi there! I'm a self-taught developer 👩🏼‍💻</p>
           </div>
         </div>
       </div>

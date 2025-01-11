@@ -85,7 +85,7 @@ const details = [
   },
   {
     id: 13,
-    name: 'Dad Jokes 😆',
+    name: '😆 Dad Jokes',
     image: 'images/joke.png',
     link: 'https://sillydadjokes.netlify.app/',
     language: 'JavaScript, CSS, HTML',
@@ -104,13 +104,13 @@ const details = [
     link: 'https://bejewelled-unicorn-e13d98.netlify.app/',
     language: 'JavaScript, CSS, React, API',
   },
-  {
-    id: 16,
-    name: '👀 Minion 👀',
-    image: 'images/minion.png',
-    link: 'https://steady-tiramisu-8d8866.netlify.app/',
-    language: 'JavaScript, CSS',
-  },
+  // {
+  //   id: 16,
+  //   name: '👀 Minion 👀',
+  //   image: 'images/minion.png',
+  //   link: 'https://steady-tiramisu-8d8866.netlify.app/',
+  //   language: 'JavaScript, CSS',
+  // },
   {
     id: 17,
     name: '🔮 Magic Ball 8🔮',
@@ -204,13 +204,13 @@ const details = [
     link: 'https://soft-pika-ed6b48.netlify.app/',
     language: 'DOM manipulation, JavaScript',
   },
-  {
-    id: 30,
-    name: 'Site Template',
-    image: 'images/extraterestrial.png',
-    link: 'https://vicmoon.github.io/CSS_SITE/',
-    language: 'CSS, HTML, Responsive Template',
-  },
+  // {
+  //   id: 30,
+  //   name: 'Site Template',
+  //   image: 'images/extraterestrial.png',
+  //   link: 'https://vicmoon.github.io/CSS_SITE/',
+  //   language: 'CSS, HTML, Responsive Template',
+  // },
   {
     id: 31,
     name: 'JavaScript Game',

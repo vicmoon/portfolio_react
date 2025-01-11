@@ -9,7 +9,7 @@ const aboutDetails = [
     id: 2,
     title: 'Studies',
     description:
-      'I hold a Bachelor of Arts in English and German from "Ovidius" University in Constanta, Romania. I also earned a qualification in English-Italian conference interpreting from Scuola Superiore per Mediatori Linguistici in Pisa, Italy. Additionally, I graduated from SheCodes, an online coding school for women. My education has provided me with a solid foundation in English, Italian, and German, while my practical experiences have sharpened my communication skills and teamwork abilities.',
+      'I hold a Bachelor of Arts in English and German from "Ovidius" University in Constanta, Romania. I also earned a qualification in English-Italian conference interpreting from Scuola Superiore per Mediatori Linguistici in Pisa, Italy. Additionally, I graduated from SheCodes, an online coding school for women. I continue learning every day, check out my progress on my "Certifications" page. My education has provided me with a solid foundation in English, Italian, and German, while my practical experiences have sharpened my communication skills and teamwork abilities.',
   },
   {
     id: 3,

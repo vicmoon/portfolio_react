@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import Header from "../components/Header";
-import Card from "../components/Card";
-import details from "../components/workDetails";
-import Footer from "../components/Footer";
-import Filter from "../components/Filter";
+import React, { useState } from 'react';
+import Header from '../components/Header';
+import Card from '../components/Card';
+import details from '../components/workDetails';
+import Footer from '../components/Footer';
+import Filter from '../components/Filter';
 
 function createCard(detail) {
   return (
@@ -12,20 +12,21 @@ function createCard(detail) {
       name={detail.name}
       image={detail.image}
       link={detail.link}
+      gitHub_link={detail.gitHub_link}
       language={detail.language}
     />
   );
 }
 
 const Work = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("All");
+  const [selectedLanguage, setSelectedLanguage] = useState('All');
 
   const handleLanguageChange = (language) => {
     setSelectedLanguage(language);
   };
 
   const filteredDetails =
-    selectedLanguage === "All"
+    selectedLanguage === 'All'
       ? details
       : details.filter((detail) => detail.language.includes(selectedLanguage));
 

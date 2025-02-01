@@ -1,4 +1,4 @@
-import Avatar from "./Avatar";
+import Avatar from './Avatar';
 
 function Card(props) {
   return (
@@ -8,14 +8,23 @@ function Card(props) {
           <Avatar image={props.image} />
         </div>
         <div className="card-back">
+          {/* First link */}
           <a
             href={props.link}
             target="_blank"
             rel="noreferrer"
-            alt="Project card"
+            aria-label={`${props.name} details`}
           >
             <p>{props.name}</p>
-            <p>{props.language}</p>
+          </a>
+          {/* Second link */}
+          <a
+            href={props.gitHub_link}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Additional link"
+          >
+            <p>{props.link2Text || 'GitHub'}</p>
           </a>
         </div>
       </div>

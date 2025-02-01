@@ -176,6 +176,7 @@ const details = [
     name: '🕹️ My Games',
     image: 'images/games_board.PNG',
     link: 'https://mygamesboard.netlify.app/',
+    gitHub_link: 'https://github.com/vicmoon/JavaScript_Functions_Demo',
     language: 'DOM manipulation, JavaScript, CSS',
   },
   {

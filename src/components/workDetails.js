@@ -274,6 +274,14 @@ const details = [
     gitHub_link: 'https://github.com/vicmoon/Vanilla-Weather',
     language: 'JavaScript',
   },
+  {
+    id: 36,
+    name: 'Contacts',
+    image: 'images/card_name.png',
+    link: 'https://pythonnamecard-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_Name_Card',
+    language: 'Python',
+  },
 ];
 
 export default details;

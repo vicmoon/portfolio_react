@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 37,
+    name: 'Portfolio',
+    image: 'images/blog.png',
+    link: 'https://victoriamunteanuportfolio.net/home',
+    gitHub_link: 'https://github.com/vicmoon/portfolio_react',
+    language: 'JavaScript, React',
+  },
+  {
     id: 36,
     name: 'Contacts',
     image: 'images/card_name.png',
@@ -7,14 +15,14 @@ const details = [
     gitHub_link: 'https://github.com/vicmoon/Python_Name_Card',
     language: 'Python',
   },
-  {
-    id: 1,
-    name: 'Quiz',
-    image: 'images/quiz.png',
-    link: 'https://pythonquizclasses-production.up.railway.app/',
-    gitHub_link: 'https://github.com/vicmoon/Python_Quiz_Classes',
-    language: 'Python',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Quiz',
+  //   image: 'images/quiz.png',
+  //   link: 'https://pythonquizclasses-production.up.railway.app/',
+  //   gitHub_link: 'https://github.com/vicmoon/Python_Quiz_Classes',
+  //   language: 'Python',
+  // },
   {
     id: 2,
     name: 'Blackjack',

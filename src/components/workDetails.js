@@ -2,7 +2,7 @@ const details = [
   {
     id: 37,
     name: 'Portfolio',
-    image: 'images/blog.png',
+    image: 'images/blog.jpg',
     link: 'https://victoriamunteanuportfolio.net/home',
     gitHub_link: 'https://github.com/vicmoon/portfolio_react',
     language: 'JavaScript, React',

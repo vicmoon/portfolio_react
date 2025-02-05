@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 38,
+    name: 'Reading List',
+    image: 'images/reading_list.png',
+    link: 'https://pythonsqliteandsqlalchemy-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_SQLiteandSQLAlchemy',
+    language: 'Python',
+  },
+  {
     id: 37,
     name: 'Portfolio',
     image: 'images/blog.jpg',

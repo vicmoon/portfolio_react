@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 39,
+    name: 'Movies Library',
+    image: 'images/',
+    link: 'https://pythontopmovies-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_TopMovies',
+    language: 'Python',
+  },
+  {
     id: 38,
     name: 'Reading List',
     image: 'images/reading_list.png',
@@ -31,14 +39,14 @@ const details = [
   //   gitHub_link: 'https://github.com/vicmoon/Python_Quiz_Classes',
   //   language: 'Python',
   // },
-  {
-    id: 2,
-    name: 'Blackjack',
-    image: 'images/blackjack.png',
-    link: 'https://pythonblackjack-production.up.railway.app/',
-    gitHub_link: 'https://github.com/vicmoon/Python_Blackjack',
-    language: 'Python',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Blackjack',
+  //   image: 'images/blackjack.png',
+  //   link: 'https://pythonblackjack-production.up.railway.app/',
+  //   gitHub_link: 'https://github.com/vicmoon/Python_Blackjack',
+  //   language: 'Python',
+  // },
   {
     id: 3,
     name: 'Hangman',

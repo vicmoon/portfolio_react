@@ -2,7 +2,7 @@ const details = [
   {
     id: 39,
     name: 'Movies Library',
-    image: 'images/',
+    image: 'images/movie_library.jpg',
     link: 'https://pythontopmovies-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_TopMovies',
     language: 'Python',

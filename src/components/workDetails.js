@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 40,
+    name: 'Demo Cafe API',
+    image: 'images/demo_api.jpg',
+    link: 'https://pythonrestapi-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_RESTAPI',
+    language: 'Python',
+  },
+  {
     id: 39,
     name: 'Movies Library',
     image: 'images/movie_library.jpg',

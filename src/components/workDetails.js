@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 41,
+    name: 'Demo App/Auth',
+    image: 'images/flask_auth.jpg',
+    link: 'https://pythonauthentification-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_Authentification',
+    language: 'Python',
+  },
+  {
     id: 40,
     name: 'Demo Cafe API',
     image: 'images/demo_api.jpg',

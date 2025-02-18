@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 42,
+    name: 'Morse-Converter',
+    image: 'images/morse_code.jpg',
+    link: 'https://pythontexttomorsecode-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_Text_to_MorseCode',
+    language: 'Python',
+  },
+  {
     id: 41,
     name: 'Demo App/Auth',
     image: 'images/flask_auth.jpg',

@@ -2,7 +2,7 @@ const details = [
   {
     id: 43,
     name: 'Watermark App',
-    image: 'images/watermark.jpg',
+    image: 'images/ItisI.png',
     link: '#',
     gitHub_link: 'https://github.com/vicmoon/Python_WatermarkingPhoto',
     language: 'Python',

@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 43,
+    name: 'Watermark App',
+    image: 'images/watermark.jpg',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_WatermarkingPhoto',
+    language: 'Python',
+  },
+  {
     id: 42,
     name: 'Morse-Converter',
     image: 'images/morse_code.jpg',

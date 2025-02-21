@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 44,
+    name: 'Speed Typing',
+    image: 'images/speed_typing.png',
+    link: 'https://pythontypespeedtest-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_TypeSpeedTest',
+    language: 'Python',
+  },
+  {
     id: 43,
     name: 'Watermark App',
     image: 'images/watermark.png',

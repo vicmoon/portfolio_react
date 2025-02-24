@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 45,
+    name: 'BreakOut!',
+    image: 'images/breakout.png',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_BreakOutGame',
+    language: 'Python',
+  },
+  {
     id: 44,
     name: 'Speed Typing',
     image: 'images/speed_typing.png',

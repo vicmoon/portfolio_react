@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 46,
+    name: 'Cafe&Wifi',
+    image: 'images/database.png',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_GoodCafe_Site',
+    language: 'Python',
+  },
+  {
     id: 45,
     name: 'BreakOut!',
     image: 'images/breakout.png',

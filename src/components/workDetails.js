@@ -3,7 +3,7 @@ const details = [
     id: 46,
     name: 'Cafe&Wifi',
     image: 'images/database.png',
-    link: '#',
+    link: 'https://pythongoodcafesite-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_GoodCafe_Site',
     language: 'Python',
   },

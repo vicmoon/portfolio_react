@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 47,
+    name: 'ToDo List',
+    image: 'images/todo.png',
+    link: 'https://pythongreattodolist-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_GreatToDoList',
+    language: 'Python',
+  },
+  {
     id: 46,
     name: 'Cafe&Wifi',
     image: 'images/database.png',

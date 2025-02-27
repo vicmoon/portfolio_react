@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 48,
+    name: 'Disappearing Txt',
+    image: 'images/disappearing.png',
+    link: 'https://pythondisappearingtext-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_DisappearingText',
+    language: 'Python',
+  },
+  {
     id: 47,
     name: 'ToDo List',
     image: 'images/todo.png',

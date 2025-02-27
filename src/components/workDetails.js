@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 50,
+    name: 'Extract RGB',
+    image: 'images/colors.png',
+    link: 'https://pythonextractcolors-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_ExtractColors',
+    language: 'Python',
+  },
+  {
     id: 49,
     name: 'Text To Speech',
     image: 'images/recording.png',

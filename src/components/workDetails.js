@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 49,
+    name: 'Text To Speech',
+    image: 'images/recording.png',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_TextToSpeech',
+    language: 'Python',
+  },
+  {
     id: 48,
     name: 'Disappearing Txt',
     image: 'images/disappearing.png',

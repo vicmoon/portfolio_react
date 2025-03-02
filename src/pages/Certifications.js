@@ -8,6 +8,13 @@ const Certifications = () => {
       <>
         <div id="certifications">
           <a
+            href="https://drive.google.com/file/d/1zMX9YLfftmg1860VQmA6PFcK4l4aaxBh/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [Python Pro Bootcamp]
+          </a>
+          <a
             href="https://drive.google.com/file/d/1Jf8FRrPbFryznJBkcj4dkZSmaEa_8PSG/view"
             rel="noreferrer"
             target="_blank"
@@ -33,7 +40,7 @@ const Certifications = () => {
             rel="noreferrer"
             target="_blank"
           >
-            [How to use AI for coding ]
+            [AI for coding ]
           </a>
           <a
             href="https://www.codecademy.com/profiles/victoria_moon/certificates/512386fdc7f6c934f98b01e6afa8285a"

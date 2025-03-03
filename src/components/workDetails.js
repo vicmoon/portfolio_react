@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 51,
+    name: 'Dinosaur Game',
+    image: 'images/dino_game.png',
+    link: 'https://pythonautodinasaurgame-production.up.railway.app/',
+    gitHub_link: 'https://github.com/vicmoon/Python_AutoDinasaurGame',
+    language: 'Python, JavaScript',
+  },
+  {
     id: 50,
     name: 'Extract RGB',
     image: 'images/colors.png',

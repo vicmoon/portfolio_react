@@ -1,8 +1,8 @@
 const details = [
   {
     id: 52,
-    name: 'Podcasts in ENG, DE, IT, RO, RU',
-    image: 'images/podcasts.png',
+    name: 'Podcasts & more',
+    image: 'images/podcast.png',
     link: 'https://pythonspotifyapishows-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_SpotifyAPI_Shows',
     language: 'Python',

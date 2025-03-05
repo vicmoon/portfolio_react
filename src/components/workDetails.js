@@ -1,19 +1,19 @@
 const details = [
   {
     id: 53,
-    name: 'My YouTube Search',
+    name: 'YouTube Search',
     image: 'images/youtube.png',
     link: '#',
     gitHub_link: 'https://github.com/vicmoon/Python_MyYouTube',
-    language: 'Python',
+    language: 'Python, API',
   },
   {
     id: 52,
-    name: 'My Spotify Search',
+    name: 'Spotify Search',
     image: 'images/podcast.png',
     link: 'https://pythonspotifyapishows-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_SpotifyAPI_Shows',
-    language: 'Python',
+    language: 'Python, API',
   },
   {
     id: 51,

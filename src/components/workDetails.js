@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 53,
+    name: 'My YouTube Search',
+    image: 'images/youtube.png',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_MyYouTube',
+    language: 'Python',
+  },
+  {
     id: 52,
     name: 'Podcasts & more',
     image: 'images/podcast.png',

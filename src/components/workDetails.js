@@ -9,7 +9,7 @@ const details = [
   },
   {
     id: 52,
-    name: 'Podcasts & more',
+    name: 'My Spotify Search',
     image: 'images/podcast.png',
     link: 'https://pythonspotifyapishows-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_SpotifyAPI_Shows',

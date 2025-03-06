@@ -3,7 +3,7 @@ const details = [
     id: 53,
     name: 'YouTube Search',
     image: 'images/youtube.png',
-    link: '#',
+    link: 'https://pythonmyyoutube-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_MyYouTube',
     language: 'Python, API',
   },

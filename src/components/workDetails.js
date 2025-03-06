@@ -1,5 +1,13 @@
 const details = [
   {
+    id: 54,
+    name: 'Online Shop',
+    image: 'images/shop.png',
+    link: '#',
+    gitHub_link: 'https://github.com/vicmoon/Python_OnlineShop_StripeAPI',
+    language: 'Python, API',
+  },
+  {
     id: 53,
     name: 'YouTube Search',
     image: 'images/youtube.png',

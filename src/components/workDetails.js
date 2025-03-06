@@ -1,9 +1,9 @@
 const details = [
   {
     id: 54,
-    name: 'Online Shop',
+    name: 'Demo Online Shop',
     image: 'images/shop.png',
-    link: '#',
+    link: 'https://pythononlineshopstripeapi-production.up.railway.app/',
     gitHub_link: 'https://github.com/vicmoon/Python_OnlineShop_StripeAPI',
     language: 'Python, API',
   },

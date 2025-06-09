@@ -8,6 +8,13 @@ const Certifications = () => {
       <>
         <div id="certifications">
           <a
+            href="https://drive.google.com/file/d/1a5jm5QNRszDS-f-2WJ0lVVMs1zK83ue-/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ServiceNow CAD]
+          </a>
+          <a
             href="https://drive.google.com/file/d/1zMX9YLfftmg1860VQmA6PFcK4l4aaxBh/view?usp=sharing"
             rel="noreferrer"
             target="_blank"

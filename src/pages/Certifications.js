@@ -8,6 +8,13 @@ const Certifications = () => {
       <>
         <div id="certifications">
           <a
+            href="https://drive.google.com/file/d/17Esj3Qo6eSTPB1Rdn80kHVwJD5yXBkCx/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ServiceNow CIS HRSD]
+          </a>
+          <a
             href="https://drive.google.com/file/d/1a5jm5QNRszDS-f-2WJ0lVVMs1zK83ue-/view?usp=sharing"
             rel="noreferrer"
             target="_blank"

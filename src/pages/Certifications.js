@@ -8,6 +8,13 @@ const Certifications = () => {
       <>
         <div id="certifications">
           <a
+            href="https://drive.google.com/file/d/1kwcRlNj-0Mu3DUphf7bcbxlJJ_Q3Lqo7/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            [ServiceNow CIS Discovery]
+          </a>
+          <a
             href="https://drive.google.com/file/d/17Esj3Qo6eSTPB1Rdn80kHVwJD5yXBkCx/view?usp=sharing"
             rel="noreferrer"
             target="_blank"

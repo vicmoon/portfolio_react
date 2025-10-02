@@ -8,19 +8,19 @@ const Contact = () => {
       <>
         <div id="contact">
           <a
-            href="https://victoriamunteanucurriculumvitae.net/"
+            href="https://storytelling-cv-production.up.railway.app/"
             rel="noreferrer"
             target="_blank"
           >
-            [ Curriculum Vitae ]
+            [ Résumé ]
           </a>
-          <a
+          {/* <a
             href="https://us21.list-manage.com/contact-form?u=e6380098ece52bf064ac7138c&form_id=f25d505929d57162a3e645f684f0dc97"
             rel="noreferrer"
             target="_blank"
           >
             [ Form ]
-          </a>
+          </a> */}
           <a
             href="https://www.bitsandscribbles.com/"
             rel="noreferrer"
@@ -33,7 +33,7 @@ const Contact = () => {
             rel="noreferrer"
             target="_blank"
           >
-            [LinkedIn]
+            [ LinkedIn ]
           </a>
           <a href="https://github.com/vicmoon" rel="noreferrer" target="_blank">
             [ GitHub ]

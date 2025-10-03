@@ -2,7 +2,7 @@ const details = [
   {
     id: 4,
     name: 'Just Did It!',
-    image: 'images/didit.png',
+    image: 'images/justdidit.png',
     link: 'https://justdidit.life/',
     gitHub_link: 'https://github.com/vicmoon/Python_JustDidIt',
     language: 'Python, SQLite, HTML, CSS',
